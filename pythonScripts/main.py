@@ -8,7 +8,7 @@ if __name__ == '__main__':
         print(len(f))
         '''
     #Playground()
-    #bot = Bot()
-    #bot.start()
-    urlHelper = URL_helper()
-    print(urlHelper.getLocations())
+    bot = Bot()
+    bot.start()
+    #urlHelper = URL_helper()
+    #print(urlHelper.getLocationsSet())

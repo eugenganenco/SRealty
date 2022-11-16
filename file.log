@@ -1,0 +1,39 @@
+2022-11-16 17:43:48,190:ERROR:root:Traceback (most recent call last):
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 139, in readLinks
+    dataPoint = self.__readLink(link, dataDict, driver)
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 164, in __readLink
+    driver.get(link)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 441, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Stacktrace:
+0   chromedriver                        0x000000010e520598 chromedriver + 4404632
+1   chromedriver                        0x000000010e4a7fa3 chromedriver + 3911587
+2   chromedriver                        0x000000010e154e6a chromedriver + 425578
+3   chromedriver                        0x000000010e1347b3 chromedriver + 292787
+4   chromedriver                        0x000000010e1aeb8d chromedriver + 793485
+5   chromedriver                        0x000000010e1c1573 chromedriver + 869747
+6   chromedriver                        0x000000010e1aabd3 chromedriver + 777171
+7   chromedriver                        0x000000010e17fced chromedriver + 601325
+8   chromedriver                        0x000000010e180e51 chromedriver + 605777
+9   chromedriver                        0x000000010e4f00ce chromedriver + 4206798
+10  chromedriver                        0x000000010e4f4797 chromedriver + 4224919
+11  chromedriver                        0x000000010e4fba4f chromedriver + 4254287
+12  chromedriver                        0x000000010e4f54da chromedriver + 4228314
+13  chromedriver                        0x000000010e4ce23f chromedriver + 4067903
+14  chromedriver                        0x000000010e5126a8 chromedriver + 4347560
+15  chromedriver                        0x000000010e512816 chromedriver + 4347926
+16  chromedriver                        0x000000010e5278fe chromedriver + 4434174
+17  libsystem_pthread.dylib             0x00007fff6ce6b109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6ce66b8b thread_start + 15
+
+
+2022-11-16 17:43:51,974:WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))': /session/c00a4c0ae043b05e28b4dd4e658ae40c
+2022-11-16 17:43:51,977:WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9bfa325840>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c00a4c0ae043b05e28b4dd4e658ae40c
+2022-11-16 17:43:51,978:WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9bfa325030>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c00a4c0ae043b05e28b4dd4e658ae40c

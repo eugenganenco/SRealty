@@ -3,6 +3,9 @@ import selenium.common
 import time as time_
 import pandas as pd
 import logging
+import os
+import re
+from FileNavigator import FileNavigator
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium import webdriver
@@ -19,38 +22,42 @@ class housingDataCollector():
         logging.basicConfig(filename='file.log',
                             format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
         self.url__helper = URL_helper()
+        self.fileNavigator = FileNavigator()
 
     def __login(self, driver):
-        driver.get('https://login.szn.cz/?service=sreality&return_url=https%3A%2F%2Flogin.'
-                         'sreality.cz%2FloginDone%3Fservice%3Dsreality%26return_url%3Dhttps%253A%252F%252Fwww.sreality.cz%252F')
+        driver.get('https://login.szn.cz/?service=sreality&return_url=https%3A%2F%2Flogin.sreality.cz%2FloginDone%3Fservice'
+                   '%3Dsreality%26return_url%3Dhttps%253A%252F%252Fwww.sreality.cz%252Fen%252Fsearch%252Ffor-sale%252Fhouses')
         loginUsername = driver.find_element(By.ID, 'login-username')
         loginUsername.send_keys(self._EMAIL)
+        driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]').click()
+        time_.sleep(5)
         loginPassword = driver.find_element(By.ID, 'login-password')
         loginPassword.send_keys(self._PASSWORD)
         loginPassword.send_keys(Keys.RETURN)
-        time_.sleep(5)
+        time_.sleep(8)
 
-    def __setUp(self, driver):
-        driver.find_element(By.CLASS_NAME,'dir-hp-signpost__item__link').click()
-        time_.sleep(3)
-        driver.find_element(By.CLASS_NAME, 'btn-XL').click()
-        time_.sleep(3)
-        driver.find_element(By.CSS_SELECTOR,'span.sort.per-page-select.right-arrow').click()
-        time_.sleep(3)
-        options = driver.find_elements(By.CSS_SELECTOR, 'span.options')
-        buttons = options[1].find_elements(By.CSS_SELECTOR, 'button.item.ng-binding')
-        buttons[1].click()
-        time_.sleep(3)
+    # def __setUp(self, driver):
+    #     driver.find_element(By.CLASS_NAME,'dir-hp-signpost__item__link').click()
+    #     time_.sleep(3)
+    #     driver.find_element(By.CLASS_NAME, 'btn-XL').click()
+    #     time_.sleep(3)
+    #     driver.find_element(By.CSS_SELECTOR,'span.sort.per-page-select.right-arrow').click()
+    #     time_.sleep(3)
+    #     options = driver.find_elements(By.CSS_SELECTOR, 'span.options')
+    #     buttons = options[1].find_elements(By.CSS_SELECTOR, 'button.item.ng-binding')
+    #     buttons[1].click()
+    #     time_.sleep(3)
 
     def saveLinks(self):
         with webdriver.Chrome(self._PATH) as driver:
             self.__login(driver)
-            self.__setUp(driver)
+            #self.__setUp(driver)
+            self.fileNavigator.makeDataFolder()
+            self.fileNavigator.goToFreshDataFolder()
             self.__browse(driver)
 
     def __browse(self, driver):
-        name = self.__makeFileName('links', 'txt')
-        with open(name, mode="w") as file:
+        with open(self.__makeFileName('links', 'txt'), mode="w") as file:
             locationsDict = self.url__helper.getHouseLocationsDict()
             houseTypesList = self.url__helper.getHouseTypesList()
             for key in locationsDict:
@@ -117,7 +124,10 @@ class housingDataCollector():
                     time_.sleep(0.5)
     '''
 
-    def readLinks(self, fileName):
+    def readLinks(self, fileName=None, directory=None):
+        self.fileNavigator.goToFreshDataFolder() if not directory else self.fileNavigator.goToDir(directory)
+        if not fileName:
+            fileName = self.fileNavigator.getLatestTxtFile()
         df = pd.DataFrame()
         csvName = self.__makeFileName('housesDf', 'csv')
         df.to_csv(csvName)
@@ -191,3 +201,5 @@ class housingDataCollector():
         dateString = now.strftime("%d_%m_%Y_%H_%M_%S")
         name = "{}_{}.{}".format(name, dateString, extension)
         return name
+
+
