@@ -8,7 +8,7 @@ class Bot:
 
 
     def start(self):
-        #self.__dataCollector.saveLinks()
+        self.__dataCollector.saveLinks()
         self.__dataCollector.readLinks()
         #df = pd.read_csv('/Users/eugenganenco/Desktop/srealtyAnalysis/housesDf_23_10_2022_05_13_29.csv')
         #dataPreProcessor = DataPreprocessor(df)

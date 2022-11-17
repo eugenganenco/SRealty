@@ -3,8 +3,6 @@ import selenium.common
 import time as time_
 import pandas as pd
 import logging
-import os
-import re
 from FileNavigator import FileNavigator
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By

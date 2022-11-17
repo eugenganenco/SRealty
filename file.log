@@ -37,3 +37,733 @@ Stacktrace:
 2022-11-16 17:43:51,974:WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))': /session/c00a4c0ae043b05e28b4dd4e658ae40c
 2022-11-16 17:43:51,977:WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9bfa325840>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c00a4c0ae043b05e28b4dd4e658ae40c
 2022-11-16 17:43:51,978:WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9bfa325030>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c00a4c0ae043b05e28b4dd4e658ae40c
+2022-11-16 22:51:47,450:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,464:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,475:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,486:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,498:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,508:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,520:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,531:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,541:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,553:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,564:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,573:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,584:ERROR:root:StaleElementReferenceException
+2022-11-16 22:51:47,594:ERROR:root:StaleElementReferenceException
+2022-11-17 00:07:08,363:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/as-as-elisky-krasnohorske/3579688780
+2022-11-17 00:16:11,918:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/as-as-skrivanci/26220108
+2022-11-17 00:18:14,300:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/as-mokriny-/3632612940
+2022-11-17 00:52:52,272:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hory--/2789041996
+2022-11-17 01:16:44,239:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/karlovy-vary-drahovice-vrchlickeho/2053972316
+2022-11-17 01:26:20,043:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bublava-bublava-/168122188
+2022-11-17 01:26:32,079:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/loket-loket-sokolovska/1585469260
+2022-11-17 01:31:15,780:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kraslice-kraslice-rybna/161941068
+2022-11-17 01:32:18,101:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kraslice-kraslice-hrbitovni/2443541340
+2022-11-17 01:33:48,067:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/jindrichovice-jindrichovice-/2518742604
+2022-11-17 01:34:23,076:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/jindrichovice-jindrichovice-/3231725388
+2022-11-17 01:38:40,901:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/stribro-stribro-na-vinici/4108822348
+2022-11-17 01:41:02,116:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lesna-lesna-/2310690380
+2022-11-17 01:44:30,623:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/stribro-stribro-machovo-udoli/1657383004
+2022-11-17 01:47:22,341:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zbiroh-zbiroh-frydova/470386508
+2022-11-17 02:02:01,927:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kralovice-kralovice-sady-csa/3443484492
+2022-11-17 02:02:17,061:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/line-line-polni/3453056844
+2022-11-17 02:04:52,314:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/line--k-okruzince/872101708
+2022-11-17 02:05:25,532:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/tremosna-tremosna-k-luhove/448784204
+2022-11-17 02:13:28,833:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/bezverov-svetec-/3176511052
+2022-11-17 02:18:34,277:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/stahlavy-stahlavy-17--listopadu/2531424076
+2022-11-17 02:19:18,568:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kysice-kysice-pod-vranovou/3239638860
+2022-11-17 02:19:44,149:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/plzen--nad-vlkysem/1810900812
+2022-11-17 02:26:16,571:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zivotice-zivotice-/3910760268
+2022-11-17 02:31:12,320:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dobrany-dobrany-mostecka/1737803596
+2022-11-17 02:37:24,762:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/zinkovy-zinkovy-/2270058316
+2022-11-17 02:42:34,244:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/horazdovice-horazdovice-zahradni/459499340
+2022-11-17 02:44:35,166:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cervene-porici-cervene-porici-/66131788
+2022-11-17 02:50:24,768:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/cachrov-onen-svet-/558827340
+2022-11-17 02:53:58,689:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kdyne-podzamci-/1800681292
+2022-11-17 03:00:57,151:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/horsovsky-tyn-podhaji-/3689551436
+2022-11-17 03:05:17,094:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/petrovice--/2241255244
+2022-11-17 03:07:35,935:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/usti-nad-labem-bukov-vseboricka/643737420
+2022-11-17 03:17:13,936:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bilina-teplicke-predmesti-litomericka/1595877196
+2022-11-17 03:18:09,560:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/osek-osek-smetanova/3110573900
+2022-11-17 03:18:30,923:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/krupka-bohosudov-lucni/2396904284
+2022-11-17 03:18:32,136:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/teplice-prosetice-prurezna/1860036172
+2022-11-17 03:18:50,988:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ledvice-ledvice-mirova/2976503628
+2022-11-17 03:22:38,451:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/teplice--/162406748
+2022-11-17 03:23:04,556:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/teplice-teplice-jugoslavska/1302468428
+2022-11-17 03:23:48,859:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/borislav-bilka-/1154992476
+2022-11-17 03:26:59,833:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/most-vtelno-u-bettynky/3174922844
+2022-11-17 03:28:28,049:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/most-vtelno-u-bettynky/333949276
+2022-11-17 03:35:07,843:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/kliny-kliny-/1430529612
+2022-11-17 03:36:28,537:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zatec-zatec-josefa-hory/3068020556
+2022-11-17 03:37:38,557:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/peruc-telce-u-potoka/4100589388
+2022-11-17 03:42:33,694:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lipno-lipno-/4107704140
+2022-11-17 03:43:56,785:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jimlin-zemechy-/4043404876
+2022-11-17 03:45:00,862:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/peruc-cernochov-/2261968716
+2022-11-17 03:45:25,225:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hrivice-markvarec-/665860444
+2022-11-17 03:46:31,754:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/domousice-solopysky-/2787501644
+2022-11-17 03:47:45,761:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/blatno-blatno-/3250288204
+2022-11-17 03:51:43,542:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/postoloprty-postoloprty-na-samote/3606779724
+2022-11-17 03:55:45,408:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zidovice-zidovice-/2024040796
+2022-11-17 03:55:49,067:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/litomerice-predmesti-na-myte/1546634828
+2022-11-17 03:56:48,891:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/litomerice-pokratice-jasminova/679806796
+2022-11-17 03:57:35,991:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lhotka-nad-labem-lhotka-nad-labem-/319313740
+2022-11-17 03:58:51,975:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zaluzi-zaluzi-/2095327052
+2022-11-17 04:00:43,658:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/polepy-polepy-/2479687500
+2022-11-17 04:01:20,554:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/doksany--/1380390732
+2022-11-17 04:02:48,507:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/levin-levin-/1549875020
+2022-11-17 04:04:45,779:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zalhostice--/319878988
+2022-11-17 04:09:55,614:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/roudnice-nad-labem-roudnice-nad-labem-trebizskeho/1812576348
+2022-11-17 04:14:34,234:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/ctineves-ctineves-/3969005132
+2022-11-17 04:18:52,197:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dobrna-dobrna-/2282514252
+2022-11-17 04:20:45,911:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/decin-decin-ix-bynov-jindrichova/3646871372
+2022-11-17 04:20:54,974:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/krasna-lipa-krasna-lipa-varnsdorfska/400828236
+2022-11-17 04:30:53,074:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/sluknov-nove-hrabeci-/1914771276
+2022-11-17 04:31:16,539:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/jetrichovice--/1283479372
+2022-11-17 04:32:27,347:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/varnsdorf-studanka-/4026279756
+2022-11-17 04:32:43,564:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/jiretin-pod-jedlovou-jiretin-pod-jedlovou-zizkova/248895308
+2022-11-17 04:34:35,301:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/decin-decin-vi-letna-/259684172
+2022-11-17 04:35:28,361:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/decin--/81551708
+2022-11-17 04:39:41,702:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chomutov-chomutov-na-belidle/565446476
+2022-11-17 04:40:18,836:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vejprty-ceske-hamry-/2879166028
+2022-11-17 04:44:54,018:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velika-ves-siroke-trebcice-/2654157148
+2022-11-17 04:45:13,983:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chomutov-chomutov-bezrucova/1970490204
+2022-11-17 04:45:18,905:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/klasterec-nad-ohri-miretice-u-klasterce-nad-ohri-vetrna/3628235356
+2022-11-17 04:45:19,900:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jirkov-jirkov-vilova/147995996
+2022-11-17 04:45:20,817:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chomutov-chomutov-jasminova/679939932
+2022-11-17 04:45:21,800:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chomutov-chomutov-blatenska/1267142492
+2022-11-17 04:45:22,733:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jirkov-jirkov-pod-vodarnou/2290552668
+2022-11-17 04:45:23,675:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chomutov-chomutov-/869040476
+2022-11-17 04:46:01,430:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/vejprty-ceske-hamry-/3043202636
+2022-11-17 04:46:29,117:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/klasterec-nad-ohri--/2587354956
+2022-11-17 04:47:58,859:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/chomutov--/3090424156
+2022-11-17 04:48:04,856:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/chomutov-chomutov-u-kamencoveho-jezera/3924203084
+2022-11-17 04:49:27,078:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vaclavice-vatekov-/639371084
+2022-11-17 04:50:14,447:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chotysany-parezi-/2820622156
+2022-11-17 04:54:00,906:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pysely-pysely-udolni/2607699788
+2022-11-17 04:54:26,925:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/radosovice-radosovice-/789997388
+2022-11-17 05:00:00,995:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/libez-libez-/1690289996
+2022-11-17 05:03:15,055:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/olbramovice--/2720708172
+2022-11-17 05:12:31,909:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/pamatka/cechtice-cechtice-nam--dr--tyrse/2286212684
+2022-11-17 05:15:38,351:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/beroun-beroun-zavodi-lidicka/3525269324
+2022-11-17 05:17:15,354:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cerhovice-cerhovice-plzenska/1149065036
+2022-11-17 05:18:43,132:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vysoky-ujezd-vysoky-ujezd-v-chaloupkach/2851600204
+2022-11-17 05:20:57,803:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/libomysl--/2557019980
+2022-11-17 05:21:23,904:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/libomysl--/2002786124
+2022-11-17 05:21:26,891:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/libomysl--/507082572
+2022-11-17 05:25:26,880:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vraz-vraz-kvetnova/1223735116
+2022-11-17 05:34:44,011:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kladno--/62867276
+2022-11-17 05:37:49,291:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kladno-kladno-fibichova/942372428
+2022-11-17 05:44:31,872:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/risuty--/4247152732
+2022-11-17 05:44:46,638:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cvrcovice-cvrcovice-lesni/2784978764
+2022-11-17 05:45:08,901:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/klobuky-klobuky-/2707380044
+2022-11-17 05:45:12,775:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/velvary-velvary-chrzinska/1893795660
+2022-11-17 05:47:27,029:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/kladno--/2657364316
+2022-11-17 05:48:59,901:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chotovice--/3780450124
+2022-11-17 05:52:48,178:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/krakovany--/2645083724
+2022-11-17 05:54:38,172:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cerhenice--/1583331148
+2022-11-17 05:56:02,282:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chrastany-bylany-/2290784076
+2022-11-17 05:57:31,407:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kolin-kolin-vi-na-vyfuku/196609868
+2022-11-17 05:58:31,030:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/doubravcice--vetrna/3775211340
+2022-11-17 05:59:06,296:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/radim-radim-/1966209372
+2022-11-17 06:01:06,340:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brezany-i-chocenice-/845190732
+2022-11-17 06:01:17,674:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/doubravcice-doubravcice-pod-cihadly/2180831052
+2022-11-17 06:05:39,289:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chrastany-bylany-/2789066316
+2022-11-17 06:05:42,399:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chrastany-bylany-/4189046348
+2022-11-17 06:10:20,197:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zleby-zleby-ronovska/3096397644
+2022-11-17 06:12:05,020:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zaky-strampouch-/3921827660
+2022-11-17 06:16:19,868:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou-zruc-nad-sazavou-v-paloukach/1919817292
+2022-11-17 06:16:34,077:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/uhlirske-janovice-uhlirske-janovice-dvorakova/480921164
+2022-11-17 06:24:46,326:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bykev-jenisovice-/3439147356
+2022-11-17 06:26:21,831:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kostelec-nad-labem-kostelec-nad-labem-k-jahodovce/881469532
+2022-11-17 06:27:42,467:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kozomin-kozomin-/724059980
+2022-11-17 06:30:54,245:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/melnik-melnik-na-stare-ceste/3476342604
+2022-11-17 06:32:13,821:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kojetice-kojetice-ke-knezihorce/1629579084
+2022-11-17 06:32:14,657:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/melnik-melnik-sadova/2533774924
+2022-11-17 06:32:15,663:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kojetice-kojetice-tumovka/985544524
+2022-11-17 06:32:20,712:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kokorin-brezinka-/330466892
+2022-11-17 06:32:21,605:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/melnik-melnik-sokolska/3873379916
+2022-11-17 06:35:43,894:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kralupy-nad-vltavou-lobecek-k--capka/380114764
+2022-11-17 06:37:24,270:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dolni-berkovice-dolni-berkovice-tyrsova/3235432268
+2022-11-17 06:37:39,199:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/tisice-kozly-v-uvoze/3873757004
+2022-11-17 06:38:05,802:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kralupy-nad-vltavou-minice-ke-studance/2955794252
+2022-11-17 06:43:16,828:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/stranka-tajna-/3419039564
+2022-11-17 06:43:26,378:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/medonosy-medonosy-/1086794588
+2022-11-17 06:46:49,530:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/mlada-boleslav-mlada-boleslav-ii-bezrucova/1373812556
+2022-11-17 06:47:51,863:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cista-cista-/3130361676
+2022-11-17 06:48:33,942:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/smilovice--/3812452172
+2022-11-17 07:04:49,328:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/mlada-boleslav-mlada-boleslav-iii-rybnicna/3249370956
+2022-11-17 07:06:43,797:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kounice--/3447355212
+2022-11-17 07:07:22,805:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/trebestovice--pod-mlynem/2544957004
+2022-11-17 07:09:43,941:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vykan--/1316562764
+2022-11-17 07:10:53,259:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jizbice-zavadilka-/1171679052
+2022-11-17 07:11:02,142:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/nymburk--/4270286668
+2022-11-17 07:13:32,203:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/oskorinek-oskorinek-jesenska/3949057868
+2022-11-17 07:18:04,379:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lysa-nad-labem--/3062552396
+2022-11-17 07:18:51,578:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dymokury-dymokury-cernohorska/1928329036
+2022-11-17 07:20:24,997:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/podebrady--/1213450060
+2022-11-17 07:23:26,068:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/jevany-jevany-lesni/2536417100
+2022-11-17 07:23:27,017:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/jevany-jevany-lesni/3324946252
+2022-11-17 07:23:28,034:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/jevany-jevany-lesni/1982768972
+2022-11-17 07:23:47,357:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/brezi--na-sirokem/2872448588
+2022-11-17 07:29:16,867:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lisnice-lisnice-/685090636
+2022-11-17 07:29:20,805:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dolni-brezany-dolni-brezany-/1404528460
+2022-11-17 07:36:56,317:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/davle-davle-/3986065228
+2022-11-17 07:37:46,973:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kytin--/189073228
+2022-11-17 07:45:02,921:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chyne-chyne-tociva/1831675468
+2022-11-17 07:45:33,004:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/statenice-cerny-vul-/4267664972
+2022-11-17 07:46:02,084:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jilove-u-prahy-radlik-liberska/1149196380
+2022-11-17 07:47:22,956:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hostivice-hostivice-ceska/1481365068
+2022-11-17 07:47:23,981:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hradistko-pikovice-/2485651276
+2022-11-17 07:47:38,708:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hradistko-hradistko-/3728012876
+2022-11-17 07:48:36,250:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hradistko-pikovice-/1030104908
+2022-11-17 07:49:01,916:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/horomerice-horomerice-hrdinu/1848837708
+2022-11-17 07:49:30,503:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cicovice--/263665484
+2022-11-17 07:49:56,538:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/drahelcice-drahelcice-husova/3325966156
+2022-11-17 07:51:55,189:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hradistko-pikovice-k-ostrovu/3814614604
+2022-11-17 07:55:22,864:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/roztoky-roztoky-na-piskach/1656854348
+2022-11-17 07:56:37,162:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hostivice-hostivice-dlouha/1086109516
+2022-11-17 07:57:31,061:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vestec-vestec-k-vodarne/2269578828
+2022-11-17 08:00:01,980:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velke-prilepy-velke-prilepy-roztocka/3066951244
+2022-11-17 08:00:23,598:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bus-bus-/3825501772
+2022-11-17 08:01:46,720:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pruhonice--/1367152988
+2022-11-17 08:04:39,369:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/trnova--/394582364
+2022-11-17 08:05:09,846:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/jesenice-osnice-/2981091148
+2022-11-17 08:14:20,069:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/hradistko-pikovice-/4094559820
+2022-11-17 08:16:53,973:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/pamatka/cernosice-cernosice-na-strazi/2980010844
+2022-11-17 08:17:18,290:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/orech-orech-baarovo-namesti/2718574412
+2022-11-17 08:17:55,027:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pribram-pribram-vi-brezove-hory-u-krizku/2705512268
+2022-11-17 08:19:25,819:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jince-jince-na-vyhlidce/4107183948
+2022-11-17 08:21:24,638:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/obory-obory-/2644662092
+2022-11-17 08:22:36,102:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/sedlcany-sedlcany-orechova/494364492
+2022-11-17 08:29:26,224:ERROR:root:Traceback (most recent call last):
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 137, in readLinks
+    dataPoint = self.__readLink(link, dataDict, driver)
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 173, in __readLink
+    parameterValue = parameterElement.find_element(By.CSS_SELECTOR, 'strong.param-value').text
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 419, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 396, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+Stacktrace:
+0   chromedriver                        0x00000001055c1598 chromedriver + 4404632
+1   chromedriver                        0x0000000105548fa3 chromedriver + 3911587
+2   chromedriver                        0x00000001051f5e6a chromedriver + 425578
+3   chromedriver                        0x00000001051f9037 chromedriver + 438327
+4   chromedriver                        0x00000001051f8ed7 chromedriver + 437975
+5   chromedriver                        0x00000001051f919c chromedriver + 438684
+6   chromedriver                        0x000000010522d9a0 chromedriver + 653728
+7   chromedriver                        0x000000010522de91 chromedriver + 654993
+8   chromedriver                        0x0000000105222527 chromedriver + 607527
+9   chromedriver                        0x000000010524bdcd chromedriver + 777677
+10  chromedriver                        0x0000000105222465 chromedriver + 607333
+11  chromedriver                        0x000000010524befe chromedriver + 777982
+12  chromedriver                        0x0000000105262f79 chromedriver + 872313
+13  chromedriver                        0x000000010524bbd3 chromedriver + 777171
+14  chromedriver                        0x0000000105220ced chromedriver + 601325
+15  chromedriver                        0x0000000105221e51 chromedriver + 605777
+16  chromedriver                        0x00000001055910ce chromedriver + 4206798
+17  chromedriver                        0x0000000105595797 chromedriver + 4224919
+18  chromedriver                        0x000000010559ca4f chromedriver + 4254287
+19  chromedriver                        0x00000001055964da chromedriver + 4228314
+20  chromedriver                        0x000000010556f23f chromedriver + 4067903
+21  chromedriver                        0x00000001055b36a8 chromedriver + 4347560
+22  chromedriver                        0x00000001055b3816 chromedriver + 4347926
+23  chromedriver                        0x00000001055c88fe chromedriver + 4434174
+24  libsystem_pthread.dylib             0x00007fff6ce6b109 _pthread_start + 148
+25  libsystem_pthread.dylib             0x00007fff6ce66b8b thread_start + 15
+
+
+2022-11-17 08:36:20,869:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pribram-pribram-ii-trida-kpt--olesinskeho/382658124
+2022-11-17 08:37:30,703:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/dobris-dobris-levandulova/3484108620
+2022-11-17 08:39:55,001:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/milesov-milesov-/1207519052
+2022-11-17 08:40:07,830:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/cim-cim-/2458736460
+2022-11-17 08:41:03,479:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/nove-dvory-kramy-/1190401612
+2022-11-17 08:46:34,904:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rakovnik-rakovnik-ii-rennerova/410347340
+2022-11-17 08:47:44,831:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/sykorice-sykorice-/339002956
+2022-11-17 08:49:21,830:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/senec-senec-/3409975116
+2022-11-17 09:02:14,734:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/racice-racice-/3122697804
+2022-11-17 09:03:06,893:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/praha-nove-mesto-senovazne-namesti/1098798924
+2022-11-17 09:05:17,303:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha--/4140173132
+2022-11-17 09:08:00,774:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-chodov-svabinskeho/460679772
+2022-11-17 09:08:26,048:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-modrany-k-dolum/3748353868
+2022-11-17 09:12:16,112:ERROR:root:Traceback (most recent call last):
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 137, in readLinks
+    dataPoint = self.__readLink(link, dataDict, driver)
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 172, in __readLink
+    parameterName = parameterElement.find_element(By.CSS_SELECTOR, 'label.param-label').text
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 419, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 396, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+Stacktrace:
+0   chromedriver                        0x00000001055c1598 chromedriver + 4404632
+1   chromedriver                        0x0000000105548fa3 chromedriver + 3911587
+2   chromedriver                        0x00000001051f5e6a chromedriver + 425578
+3   chromedriver                        0x00000001051f9037 chromedriver + 438327
+4   chromedriver                        0x00000001051f8ed7 chromedriver + 437975
+5   chromedriver                        0x00000001051f919c chromedriver + 438684
+6   chromedriver                        0x000000010522d9a0 chromedriver + 653728
+7   chromedriver                        0x000000010522de91 chromedriver + 654993
+8   chromedriver                        0x0000000105222527 chromedriver + 607527
+9   chromedriver                        0x000000010524bdcd chromedriver + 777677
+10  chromedriver                        0x0000000105222465 chromedriver + 607333
+11  chromedriver                        0x000000010524befe chromedriver + 777982
+12  chromedriver                        0x0000000105262f79 chromedriver + 872313
+13  chromedriver                        0x000000010524bbd3 chromedriver + 777171
+14  chromedriver                        0x0000000105220ced chromedriver + 601325
+15  chromedriver                        0x0000000105221e51 chromedriver + 605777
+16  chromedriver                        0x00000001055910ce chromedriver + 4206798
+17  chromedriver                        0x0000000105595797 chromedriver + 4224919
+18  chromedriver                        0x000000010559ca4f chromedriver + 4254287
+19  chromedriver                        0x00000001055964da chromedriver + 4228314
+20  chromedriver                        0x000000010556f23f chromedriver + 4067903
+21  chromedriver                        0x00000001055b36a8 chromedriver + 4347560
+22  chromedriver                        0x00000001055b3816 chromedriver + 4347926
+23  chromedriver                        0x00000001055c88fe chromedriver + 4434174
+24  libsystem_pthread.dylib             0x00007fff6ce6b109 _pthread_start + 148
+25  libsystem_pthread.dylib             0x00007fff6ce66b8b thread_start + 15
+
+
+2022-11-17 09:18:14,543:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/praha-krc-u-habrovky/2108962380
+2022-11-17 09:20:14,240:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha--/4013479756
+2022-11-17 09:20:26,434:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-zbraslav-zavist/3899115084
+2022-11-17 09:21:06,593:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-lochkov-k-celinam/2142132044
+2022-11-17 09:21:10,371:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-slivenec-ke-smichovu/3190285900
+2022-11-17 09:22:27,911:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-stodulky-vstavacova/1249072716
+2022-11-17 09:23:47,113:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-stodulky-k-zahradkam/1136117580
+2022-11-17 09:25:13,851:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-hlubocepy-lipova-alej/3836794700
+2022-11-17 09:25:36,633:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-reporyje-raskova/2993420108
+2022-11-17 09:25:54,288:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-stodulky-vstavacova/3356710476
+2022-11-17 09:29:50,008:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/praha-smichov-libinska/919418444
+2022-11-17 09:32:07,273:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-repy-k-trninam/2091329356
+2022-11-17 09:32:53,850:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-nebusice-druheho-odboje/1490683724
+2022-11-17 09:33:56,160:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-dejvice-na-pernikarce/1134057292
+2022-11-17 09:36:25,849:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-predni-kopanina-nove-domy/4049176396
+2022-11-17 09:38:04,691:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/praha-nebusice-na-zaveji/672339532
+2022-11-17 09:38:09,849:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/praha-repy-podkrkonosskych-tkalcu/2680781148
+2022-11-17 09:38:10,784:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/praha--/148449100
+2022-11-17 09:38:17,616:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/praha-bubenec-slavickova/2072889164
+2022-11-17 09:39:14,678:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/praha-vokovice-arabska/1366808140
+2022-11-17 09:39:55,418:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-troja-v-podhori/2963007308
+2022-11-17 09:43:35,912:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-brezineves-v-cestickach/1176360780
+2022-11-17 09:48:49,730:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-letnany-jablunkovska/3651880780
+2022-11-17 09:49:49,243:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-satalice-kauckeho/1142282060
+2022-11-17 09:49:52,510:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-ujezd-nad-lesy-ranska/3805677388
+2022-11-17 09:52:02,572:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-kolodeje-panenky/2742249292
+2022-11-17 09:55:59,536:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-horni-pocernice-slatinanska/3337963084
+2022-11-17 09:57:34,911:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-ujezd-nad-lesy-velimska/706786892
+2022-11-17 09:58:33,811:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/praha-klanovice-/3840194908
+2022-11-17 09:58:46,419:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/praha--nedokoncena/1493129036
+2022-11-17 10:00:45,413:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-malesice-rektorska/1874814796
+2022-11-17 10:01:42,679:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-strasnice-solidarity/578856780
+2022-11-17 10:02:04,509:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-uhrineves-/467208540
+2022-11-17 10:05:05,733:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-kolovraty-na-parkane/956569420
+2022-11-17 10:05:27,139:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-praha-benice-/1278809932
+2022-11-17 10:05:57,121:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-strasnice-detska/1727936332
+2022-11-17 10:06:03,003:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-horni-mecholupy-lochotinska/3513763660
+2022-11-17 10:06:30,362:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-uhrineves-ctyrkolska/2720069452
+2022-11-17 10:06:34,492:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-kreslice-k-cestlicum/2151806796
+2022-11-17 10:07:14,334:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/praha-dubec-/912410972
+2022-11-17 10:11:10,265:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/locenice--/889354060
+2022-11-17 10:19:14,694:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/roudne-roudne-lucni/3658659660
+2022-11-17 10:20:34,892:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/adamov-adamov-javorova/1102862156
+2022-11-17 10:22:07,077:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hlincova-hora-hlincova-hora-kodetka-jizni/1521047372
+2022-11-17 10:24:41,738:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/trhove-sviny-trhove-sviny-na-nivach/3358340940
+2022-11-17 10:25:28,507:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lisov-lisov-uzka/679638860
+2022-11-17 10:28:55,060:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/srubec-srubec-jedlova/3950516044
+2022-11-17 10:30:08,728:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/doudleby-stranany-/4218951244
+2022-11-17 10:30:34,835:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/srubec-srubec-hodejovicka/1986869068
+2022-11-17 10:33:56,557:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/nove-hrady--/314648396
+2022-11-17 10:40:06,334:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/predni-vyton-predni-vyton-frydava/2049333068
+2022-11-17 10:44:50,521:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/loucovice-loucovice-/207275852
+2022-11-17 10:47:11,922:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/besednice-besednice-samoty/1408423500
+2022-11-17 10:50:22,695:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/besednice-besednice-/3855464268
+2022-11-17 10:51:50,409:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/horni-plana--/1150768972
+2022-11-17 10:51:59,713:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/frymburk-milna-/2164021068
+2022-11-17 10:52:58,928:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/mirkovice-zahradka-/337851980
+2022-11-17 10:54:11,873:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/prisecna-prisecna-/336144476
+2022-11-17 10:59:00,536:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ceske-velenice-ceske-velenice-husova/2231199564
+2022-11-17 10:59:01,512:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/drazby/dum/rodinny/desna--/1038448460
+2022-11-17 10:59:52,328:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lomnice-nad-luznici-lomnice-nad-luznici-palackeho/4101781324
+2022-11-17 11:01:20,387:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bednarecek-bednarecek-/3341166412
+2022-11-17 11:04:52,899:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/nova-bystrice-ovcarna-/2607105612
+2022-11-17 11:05:32,269:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/desna-rancirov-/707663436
+2022-11-17 11:10:28,062:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/dolni-pena-dolni-pena-/443082316
+2022-11-17 11:11:38,227:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kovarov-zahorany-/108545868
+2022-11-17 11:12:49,137:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pisek-budejovicke-predmesti-erbenova/1782028108
+2022-11-17 11:12:53,481:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/varvazov-stedronin-plazy-/3371525964
+2022-11-17 11:14:32,188:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/mirovice-mirovice-dolejsi/2591479372
+2022-11-17 11:19:25,252:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/bozetice-bozetice-/3757012812
+2022-11-17 11:25:45,885:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/malovice-malovice-/1196173132
+2022-11-17 11:25:54,735:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vimperk-vimperk-i-kostelni/1365780300
+2022-11-17 11:35:35,067:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/volenice-volenice-/3896530764
+2022-11-17 11:35:51,722:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cestice-stridka-/1106327116
+2022-11-17 11:42:02,753:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zabori-zabori-/1488415068
+2022-11-17 11:42:35,867:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cehnice-dunovice-/1420421212
+2022-11-17 11:46:14,313:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/strunkovice-nad-volynkou--/774911564
+2022-11-17 11:50:04,079:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/drazby/dum/rodinny/tabor--/559703884
+2022-11-17 11:55:08,420:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/plana-nad-luznici-plana-nad-luznici-/3659298380
+2022-11-17 11:55:35,059:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/tabor--/1044514380
+2022-11-17 11:57:18,019:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pohnani-pohnani-/2314111324
+2022-11-17 11:57:41,434:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov--/1234475100
+2022-11-17 11:59:34,710:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/dolni-horice-prasetin-/3286624076
+2022-11-17 12:03:37,961:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/tabor--/1088184668
+2022-11-17 12:03:44,451:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/radetice-radetice-/3249297228
+2022-11-17 12:07:22,169:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chotebor--makova/291194700
+2022-11-17 12:09:28,143:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/svetla-nad-sazavou-svetla-nad-sazavou-lanecka/394876748
+2022-11-17 12:12:20,093:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zizkovo-pole-zizkovo-pole-samotin/2273314636
+2022-11-17 12:13:07,695:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/habry-habry-na-pachu/3222682460
+2022-11-17 12:21:25,614:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/podmoky-podmoky-/2460645196
+2022-11-17 12:27:17,552:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vilanec-vilanec-/1684481868
+2022-11-17 12:41:16,470:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bozejov-bozejov-/3248293708
+2022-11-17 12:48:13,246:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/pacov-pacov-/666462028
+2022-11-17 12:52:17,176:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/radonin--/3996350812
+2022-11-17 12:55:19,587:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/moravske-budejovice-moravske-budejovice-komenskeho/3747845708
+2022-11-17 12:57:01,577:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/trebic-nove-dvory-zdislavina/3815937868
+2022-11-17 12:57:34,898:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/namest-nad-oslavou-namest-nad-oslavou-j--nerudy/262727500
+2022-11-17 13:07:09,062:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velke-mezirici-velke-mezirici-oslavicka/1643002204
+2022-11-17 13:07:10,069:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velke-mezirici-velke-mezirici-/2263759196
+2022-11-17 13:08:03,935:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/osova-bityska-osova-/2634454860
+2022-11-17 13:19:01,662:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chrudim-chrudim-iii-jungmannovo-nabrezi/3971290956
+2022-11-17 13:23:04,074:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bestvina-bestvina-/1360479820
+2022-11-17 13:26:13,613:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/klesice--/1744238940
+2022-11-17 13:29:18,169:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/chrudim-chrudim-iv-tovarni/1429481036
+2022-11-17 13:29:23,192:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/knezice-knezice-/4026578508
+2022-11-17 13:32:41,059:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/sezemice-sezemice-dukelska/1840154444
+2022-11-17 13:34:09,083:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pardubice-svitkov-dostihova/1291560780
+2022-11-17 13:35:56,113:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/opatovice-nad-labem-opatovice-nad-labem-komenskeho/1213876044
+2022-11-17 13:36:18,463:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/svojsice-svojsice-/173631308
+2022-11-17 13:37:22,964:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/opatovice-nad-labem-opatovice-nad-labem-na-hrazi/951351116
+2022-11-17 13:37:41,309:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pardubice-nemosice-sportovni/4241643340
+2022-11-17 13:37:53,734:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/moravany-moravany-k-olsinam/2299746124
+2022-11-17 13:40:50,923:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rohovladova-bela-rohovladova-bela-/2345563980
+2022-11-17 13:46:12,502:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dasice-zminny-/2905446220
+2022-11-17 13:48:15,374:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pardubice-lany-na-dulku-/3893790284
+2022-11-17 13:50:48,831:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/jezborice-jezborice-/3341981260
+2022-11-17 13:53:01,239:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/prelouc-klenovka-/713844556
+2022-11-17 13:54:47,159:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vitejeves-vitejeves-/38979404
+2022-11-17 14:03:08,418:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jaromerice-jaromerice-/3985700428
+2022-11-17 14:04:16,590:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rychnov-na-morave-rychnov-na-morave-/1734863196
+2022-11-17 14:05:50,092:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/svojanov-predmesti-/2990393164
+2022-11-17 14:10:25,665:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lanskroun-dolni-tresnovec-/2631227212
+2022-11-17 14:14:05,148:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ceska-trebova--/3656894284
+2022-11-17 14:23:34,322:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/vraclav--/3201922636
+2022-11-17 14:33:26,990:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/sloupno--/3268175692
+2022-11-17 14:36:00,327:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/boharyne-boharyne-/2845439820
+2022-11-17 14:36:58,917:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hradec-kralove-svinary-podhurska/4137490252
+2022-11-17 14:38:31,803:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/predmerice-nad-labem-predmerice-nad-labem-zelena-cihelna/452581196
+2022-11-17 14:39:29,455:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hradec-kralove-plotiste-nad-labem-u-sokola/901228364
+2022-11-17 14:43:55,204:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/hradec-kralove--/3635763020
+2022-11-17 14:50:27,729:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/luzany-luzany-/856431452
+2022-11-17 14:51:28,265:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dolni-lochov--/1977075532
+2022-11-17 15:03:10,608:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ceska-skalice-mala-skalice-maloskalicka/2857334348
+2022-11-17 15:05:18,267:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/broumov-broumov-stanislava-opocenskeho/1020303180
+2022-11-17 15:12:27,094:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/hyncice-hyncice-/1827215180
+2022-11-17 15:12:39,491:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/mezileci-posadov-/1925068620
+2022-11-17 15:13:16,608:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/adrspach-horni-adrspach-/3266311756
+2022-11-17 15:19:07,180:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/albrechtice-nad-orlici-albrechtice-nad-orlici-na-hrazce/1621440332
+2022-11-17 15:20:10,641:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ceske-mezirici-ceske-mezirici-julia-fucika/2771327324
+2022-11-17 15:26:17,097:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/ricky-v-orlickych-horach--/1196947276
+2022-11-17 15:26:32,777:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/bartosovice-v-orlickych-horach--/1361692236
+2022-11-17 15:27:02,735:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/tyniste-nad-orlici-tyniste-nad-orlici-/873515868
+2022-11-17 15:27:42,031:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rudnik-rudnik-/3523159628
+2022-11-17 15:27:45,787:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dvur-kralove-nad-labem-dvur-kralove-nad-labem-sladkovskeho/1463486284
+2022-11-17 15:32:59,254:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice--/4127946572
+2022-11-17 15:37:11,041:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/nemojov-novy-nemojov-/1336719180
+2022-11-17 15:40:22,907:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chotevice-chotevice-/2913314908
+2022-11-17 15:44:14,250:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/dvur-kralove-nad-labem-verdek-/2937997132
+2022-11-17 15:44:20,421:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/vlcice-vlcice-/1935664972
+2022-11-17 15:46:50,907:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/pilnikov-pilnikov-prazska/3766294348
+2022-11-17 15:51:43,912:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/svor-svor-/2334222156
+2022-11-17 15:53:25,918:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ralsko-kurivody-/2360506188
+2022-11-17 15:54:41,162:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/skalice-u-ceske-lipy-skalice-u-ceske-lipy-/2659460940
+2022-11-17 16:01:34,524:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ceska-lipa-pisecna-/616634716
+2022-11-17 16:02:23,838:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/mimon-mimon-iii-nadrazni/3849795676
+2022-11-17 16:04:50,143:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/sloup-v-cechach-sloup-v-cechach-potocni/3290031692
+2022-11-17 16:05:15,879:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/doksy-stare-splavy-dalibora-z-myslina/1551001420
+2022-11-17 16:10:23,509:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/smrzovka-smrzovka-kostelni/476628812
+2022-11-17 16:13:01,837:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zelezny-brod-horska-kamenice-/1660897628
+2022-11-17 16:14:06,352:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/harrachov-novy-svet-/2199267148
+2022-11-17 16:17:48,116:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jablonec-nad-nisou-kokonin-rychnovska/3980027468
+2022-11-17 16:21:12,324:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/korenov-prichovice-/604460620
+2022-11-17 16:21:18,311:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/smrzovka-smrzovka-postovni/4049929804
+2022-11-17 16:21:19,814:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/zlata-olesnice-stanovy-/172840780
+2022-11-17 16:24:38,955:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hradek-nad-nisou-dolni-sucha-/572475212
+2022-11-17 16:28:17,903:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/prosec-pod-jestedem-prosec-pod-jestedem-/472213324
+2022-11-17 16:29:04,165:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lazne-libverda--/4203898700
+2022-11-17 16:29:35,466:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hradek-nad-nisou-dolni-sucha-/2162341708
+2022-11-17 16:34:43,415:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/liberec-liberec-xi-ruzodol-i-rolnicka/1738114892
+2022-11-17 16:35:30,216:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cesky-dub-bohumilec-/3110532940
+2022-11-17 16:43:39,247:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/raspenava-raspenava-/1418581580
+2022-11-17 16:45:21,495:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/svijany-svijany-/3833935692
+2022-11-17 16:48:46,256:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/libstat-libstat-/1162389068
+2022-11-17 16:50:29,859:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lomnice-nad-popelkou-lomnice-nad-popelkou-/564189532
+2022-11-17 16:52:40,053:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jilemnice-jilemnice-roztocka/1300027212
+2022-11-17 16:54:31,250:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/turnov-kaderavec-/4243596876
+2022-11-17 16:55:40,927:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jilemnice-jilemnice-na-zuliance/2700495196
+2022-11-17 16:59:18,880:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/jablonec-nad-jizerou-horni-dusnice-/2811778892
+2022-11-17 17:02:21,922:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velenov-velenov-/4117870156
+2022-11-17 17:08:38,158:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lhota-rapotina--/4164515660
+2022-11-17 17:10:30,322:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/blansko-klepacov-dlouha/512898892
+2022-11-17 17:10:46,050:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zdar-zdar-/1828771660
+2022-11-17 17:11:33,817:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lazany-lazany-/2045679436
+2022-11-17 17:11:52,560:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vanovice-drvalovice-/492812108
+2022-11-17 17:12:35,544:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velke-opatovice-velka-roudka-/1750296140
+2022-11-17 17:17:56,624:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/boskovice-boskovice-plackova/1468123484
+2022-11-17 17:23:01,663:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno--/1107183436
+2022-11-17 17:23:27,346:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-ponava-stefanikova/4117612108
+2022-11-17 17:23:58,078:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-lisen-bacovskeho/888547420
+2022-11-17 17:28:37,059:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-chrlice-v-rejich/3609413980
+2022-11-17 17:28:46,049:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-sadova-kocianka/3834472796
+2022-11-17 17:30:25,564:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-zidenice-svatoplukova/4255405900
+2022-11-17 17:31:52,211:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-sobesice-lovecka/3953465164
+2022-11-17 17:32:12,292:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-zidenice-nopova/3649210188
+2022-11-17 17:33:42,034:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-malomerice-olsi/248694604
+2022-11-17 17:34:13,232:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-jundrov-lelkova/59434828
+2022-11-17 17:35:09,588:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-ivanovice-sychrov/3144214092
+2022-11-17 17:36:17,353:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-reckovice-olsanskeho/3622778444
+2022-11-17 17:36:43,263:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/brno-jundrov-veslarska/517768780
+2022-11-17 17:40:12,948:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/brno-bystrc-/953513548
+2022-11-17 17:40:20,831:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/brno-sobesice-/472450892
+2022-11-17 17:40:27,292:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/brno-ivanovice-/2559715148
+2022-11-17 17:45:48,032:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/nebovidy--/3107169868
+2022-11-17 17:51:52,666:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rosice-rosice-jiraskova/1815115340
+2022-11-17 17:53:17,454:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/malesovice-malesovice-/2151335756
+2022-11-17 17:54:27,003:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ostrovacice-ostrovacice-karla-zelenskeho/716199756
+2022-11-17 17:54:55,004:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/opatovice-opatovice-na-navsi/147019596
+2022-11-17 17:55:58,577:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/sumice-sumice-/4066231884
+2022-11-17 17:57:19,799:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hajany--/478959436
+2022-11-17 17:58:36,532:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/syrovice-syrovice-/3399046988
+2022-11-17 17:58:53,057:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ochoz-u-brna-ochoz-u-brna-na-brane/1747855180
+2022-11-17 18:01:09,890:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/orechov--/1312421708
+2022-11-17 18:02:07,747:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ricmanice-ricmanice-na-vyhlidce/3721406284
+2022-11-17 18:02:10,830:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/troubsko-troubsko-hodakova/3779290956
+2022-11-17 18:02:15,330:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pribyslavice-pribyslavice-/1251706700
+2022-11-17 18:05:04,985:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rajhrad-rajhrad-klaster/506730060
+2022-11-17 18:07:12,207:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/domasov-domasov-brnenska/2204829516
+2022-11-17 18:07:27,813:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/syrovice-syrovice-/2102662988
+2022-11-17 18:08:25,867:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velatice-velatice-/3073169228
+2022-11-17 18:08:57,441:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/syrovice-syrovice-/947726156
+2022-11-17 18:14:59,495:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pohorelice-pohorelice-lesni/2641803084
+2022-11-17 18:16:45,172:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pozorice-pozorice-/75897180
+2022-11-17 18:19:43,898:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kanice-kanice-/1069574492
+2022-11-17 18:21:27,342:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vlasatice--/2721533276
+2022-11-17 18:26:24,384:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/rajhrad--/3419572044
+2022-11-17 18:35:21,425:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dolni-bojanovice-dolni-bojanovice-hlavni/1693075020
+2022-11-17 18:40:22,770:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/tvarozna-lhota-tvarozna-lhota-/2592167500
+2022-11-17 18:41:42,488:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/moravany--/2372982348
+2022-11-17 18:42:24,238:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/veseli-nad-moravou-zarazice-zarazicka/2534258252
+2022-11-17 18:44:43,135:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/prusanky-prusanky-/4082440012
+2022-11-17 18:45:28,779:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/letonice-letonice-skolni/3454793548
+2022-11-17 18:46:37,804:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hrusky-hrusky-/2879478108
+2022-11-17 18:50:36,347:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/nemcany-nemcany-/1831556940
+2022-11-17 18:57:19,023:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lovcicky-lovcicky-/4208137804
+2022-11-17 18:57:25,140:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/hlubocany-hlubocany-/1815856972
+2022-11-17 18:58:35,221:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rousinov-rousinov-louky/3784767308
+2022-11-17 19:08:23,551:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/drahanovice-luderov-/1519548236
+2022-11-17 19:13:11,952:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/hanovice-hanovice-/945252172
+2022-11-17 19:13:29,600:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/undefined/kozusany-tazaly-kozusany-/566409036
+2022-11-17 19:13:44,009:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zelatovice-zelatovice-/1059587916
+2022-11-17 19:16:41,212:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/troubky-troubky-nova-ctvrt-ii-/3865274188
+2022-11-17 19:20:34,172:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/krenovice-krenovice-/478878044
+2022-11-17 19:21:50,455:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vezky--/1286375244
+2022-11-17 19:22:29,334:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/merovice-nad-hanou-merovice-nad-hanou-/2263525196
+2022-11-17 19:22:56,666:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/drevohostice-drevohostice-sadova/4199564876
+2022-11-17 19:23:20,792:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/oprostovice--/3540346444
+2022-11-17 19:29:18,018:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velka-kras--/3970697036
+2022-11-17 19:29:32,581:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/mikulovice-kolnovice-/2862847564
+2022-11-17 19:37:32,911:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/ceska-ves-ceska-ves-/1437992780
+2022-11-17 19:39:11,922:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/kobyla-nad-vidnavkou--/1942910796
+2022-11-17 19:42:49,618:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rozstani--/379070284
+2022-11-17 19:43:07,555:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/plumlov-plumlov-zamecka/4037547852
+2022-11-17 19:44:31,509:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/plumlov-plumlov-vinohradky/1243633484
+2022-11-17 19:49:21,566:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rozstani-rozstani-/3304875852
+2022-11-17 19:53:57,935:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/plumlov-plumlov-/2718484044
+2022-11-17 19:56:40,100:ERROR:root:Traceback (most recent call last):
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 137, in readLinks
+    dataPoint = self.__readLink(link, dataDict, driver)
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 173, in __readLink
+    parameterValue = parameterElement.find_element(By.CSS_SELECTOR, 'strong.param-value').text
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 419, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 396, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+Stacktrace:
+0   chromedriver                        0x00000001055c1598 chromedriver + 4404632
+1   chromedriver                        0x0000000105548fa3 chromedriver + 3911587
+2   chromedriver                        0x00000001051f5e6a chromedriver + 425578
+3   chromedriver                        0x00000001051f9037 chromedriver + 438327
+4   chromedriver                        0x00000001051f8ed7 chromedriver + 437975
+5   chromedriver                        0x00000001051f919c chromedriver + 438684
+6   chromedriver                        0x000000010522d9a0 chromedriver + 653728
+7   chromedriver                        0x000000010522de91 chromedriver + 654993
+8   chromedriver                        0x0000000105222527 chromedriver + 607527
+9   chromedriver                        0x000000010524bdcd chromedriver + 777677
+10  chromedriver                        0x0000000105222465 chromedriver + 607333
+11  chromedriver                        0x000000010524befe chromedriver + 777982
+12  chromedriver                        0x0000000105262f79 chromedriver + 872313
+13  chromedriver                        0x000000010524bbd3 chromedriver + 777171
+14  chromedriver                        0x0000000105220ced chromedriver + 601325
+15  chromedriver                        0x0000000105221e51 chromedriver + 605777
+16  chromedriver                        0x00000001055910ce chromedriver + 4206798
+17  chromedriver                        0x0000000105595797 chromedriver + 4224919
+18  chromedriver                        0x000000010559ca4f chromedriver + 4254287
+19  chromedriver                        0x00000001055964da chromedriver + 4228314
+20  chromedriver                        0x000000010556f23f chromedriver + 4067903
+21  chromedriver                        0x00000001055b36a8 chromedriver + 4347560
+22  chromedriver                        0x00000001055b3816 chromedriver + 4347926
+23  chromedriver                        0x00000001055c88fe chromedriver + 4434174
+24  libsystem_pthread.dylib             0x00007fff6ce6b109 _pthread_start + 148
+25  libsystem_pthread.dylib             0x00007fff6ce66b8b thread_start + 15
+
+
+2022-11-17 20:04:29,699:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/novy-malin-novy-malin-/3883231052
+2022-11-17 20:04:42,038:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/dolni-studenky-dolni-studenky-/3367016268
+2022-11-17 20:05:12,892:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/stare-mesto-stare-mesto-kvetna/966465356
+2022-11-17 20:07:09,561:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velke-losiny-velke-losiny-svermova/875960140
+2022-11-17 20:07:35,098:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rapotin-rapotin-u-cihelny/3511691084
+2022-11-17 20:08:46,371:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rohle-nedvezi-/237881164
+2022-11-17 20:13:02,876:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/mohelnice--/1764976988
+2022-11-17 20:15:35,547:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/rohle-nedvezi-/3444426572
+2022-11-17 20:19:09,956:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/kostelany-kostelany-/854398796
+2022-11-17 20:21:36,413:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/nitkovice--/134960972
+2022-11-17 20:25:38,730:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice-pod-hostynem-rychlov-prerovska/2835027788
+2022-11-17 20:27:02,556:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/chvalcov-chvalcov-u-vesnicky/481400652
+2022-11-17 20:30:16,459:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/drinov-drinov-/2894734924
+2022-11-17 20:32:12,359:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/honetice-honetice-/525863516
+2022-11-17 20:35:44,627:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/bystrice-pod-lopenikem-bystrice-pod-lopenikem-/3697083980
+2022-11-17 20:35:45,806:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/rudice-rudice-/380315212
+2022-11-17 20:37:08,427:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/nezdenice-nezdenice-/1129818972
+2022-11-17 20:41:56,138:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/vsetin-rokytnice-pod-becevnou/1958897484
+2022-11-17 20:48:31,725:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/doubravy--/4176430924
+2022-11-17 20:49:42,327:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/otrokovice-otrokovice-dobrovskeho/3108841036
+2022-11-17 20:52:26,354:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/zlin-zlin-na-louce/2958149980
+2022-11-17 20:52:37,587:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pohorelice-pohorelice-mocidla/932734796
+2022-11-17 21:00:13,225:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/zlin-zlin-bratri-jaronku/4138518092
+2022-11-17 21:00:22,754:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chalupa/stitna-nad-vlari-popov-stitna-nad-vlari-/4199806796
+2022-11-17 21:01:41,547:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/napajedla--/2133337932
+2022-11-17 21:02:53,846:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/pozlovice-pozlovice-/679307612
+2022-11-17 21:05:28,453:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/lomnice--/3803011420
+2022-11-17 21:10:07,739:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/horni-benesov--/3988326220
+2022-11-17 21:14:01,231:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bruntal-bruntal-alsova/796169804
+2022-11-17 21:21:46,845:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/liptan-liptan-/806881884
+2022-11-17 21:26:35,770:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/zemedelska-usedlost/bohusov-bohusov-/498878028
+2022-11-17 21:26:56,476:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/frydek-mistek-frydek-/2936330060
+2022-11-17 21:29:39,185:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/horni-domaslavice-horni-domaslavice-/693053260
+2022-11-17 21:29:53,764:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/horni-tosanovice--/2687276876
+2022-11-17 21:31:22,239:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/moravka-moravka-/1349248588
+2022-11-17 21:38:14,429:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/pstruzi--/2041472588
+2022-11-17 21:39:56,051:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/moravka-moravka-/2481096524
+2022-11-17 21:40:49,053:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/celadna--/1986692684
+2022-11-17 21:43:40,868:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/petrvald-petrvald-k-ubytovnam/3213772620
+2022-11-17 21:43:54,571:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/petrovice-u-karvine--/4080657996
+2022-11-17 21:45:59,292:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/detmarovice-detmarovice-/1511348044
+2022-11-17 21:46:10,450:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/petrovice-u-karvine-petrovice-u-karvine-/3890259788
+2022-11-17 21:46:11,557:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bohumin-skrecon-miru/250013516
+2022-11-17 21:46:35,330:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/detmarovice--/688936780
+2022-11-17 21:47:41,096:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/orlova-lutyne-/142247756
+2022-11-17 21:49:31,362:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/havirov-bludovice-u-lipek/631989836
+2022-11-17 21:49:54,524:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/havirov-prostredni-sucha-hornosusska/1937729356
+2022-11-17 21:50:10,947:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/detmarovice-detmarovice-/1739220812
+2022-11-17 21:51:46,815:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/rychvald-rychvald-/1612543820
+2022-11-17 21:52:40,503:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bohumin-zablati-/2070612060
+2022-11-17 21:55:33,331:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/terlicko-horni-terlicko-nabrezni/2103977804
+2022-11-17 21:55:54,966:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/stonava-stonava-/853731148
+2022-11-17 21:56:28,393:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/bohumin-skrecon-uvozni/56928076
+2022-11-17 21:56:45,413:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/horni-sucha-horni-sucha-/1923860044
+2022-11-17 21:56:50,427:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/petrovice-u-karvine-petrovice-u-karvine-/3809896012
+2022-11-17 21:56:57,101:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/cesky-tesin-cesky-tesin-28--rijna/3174754124
+2022-11-17 21:56:58,406:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/petrvald--/551941964
+2022-11-17 21:57:19,069:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/detmarovice--/248604764
+2022-11-17 21:59:05,775:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/petrovice-u-karvine--/4159571532
+2022-11-17 21:59:51,380:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/havirov-prostredni-sucha-delnicka/2568578636
+2022-11-17 22:00:55,327:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/orlova-mesto-k-holotovci/3486135884
+2022-11-17 22:06:56,326:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/na-klic/karvina--/139660636
+2022-11-17 22:07:39,648:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/trojanovice-trojanovice-/1216153420
+2022-11-17 22:10:48,391:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/koprivnice--/1028573004
+2022-11-17 22:12:00,524:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/frenstat-pod-radhostem--/1556178508
+2022-11-17 22:21:10,917:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/trojanovice-trojanovice-/1324230476
+2022-11-17 22:22:38,419:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pribor-prchalov-/675600204
+2022-11-17 22:23:26,180:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/jistebnik-jistebnik-/928372556
+2022-11-17 22:26:34,795:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velke-albrechtice-velke-albrechtice-/3834353484
+2022-11-17 22:27:06,313:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pribor-pribor-za-skolou/530954060
+2022-11-17 22:35:23,724:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/vila/senov-u-noveho-jicina-senov-u-noveho-jicina-dukelska/2428033372
+2022-11-17 22:43:51,334:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/svatonovice--/3302717788
+2022-11-17 22:46:19,169:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/budisov-nad-budisovkou-budisov-nad-budisovkou-dukelska/4173100876
+2022-11-17 22:46:29,549:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/opava-kylesovice-josefska/2376824652
+2022-11-17 22:51:31,325:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/sluzovice-sluzovice-/1546028620
+2022-11-17 22:51:36,042:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ludgerovice-ludgerovice-finske-domky/854296140
+2022-11-17 22:52:38,688:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/pusta-polom-pusta-polom-na-zahumeni/3874994268
+2022-11-17 22:54:24,788:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/jakartovice-destne-/3870975820
+2022-11-17 22:57:37,517:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ostrava-polanka-nad-odrou-v-brizkach/2297767500
+2022-11-17 22:59:24,753:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ostrava-petrkovice-kvetna/1428576076
+2022-11-17 23:01:26,302:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ostrava-zabreh-mnukova/1194927948
+2022-11-17 23:09:19,195:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/senov-senov-stara-petrvaldska/3413858124
+2022-11-17 23:12:16,748:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/velka-polom-velka-polom-u-jizdarny/2806998860
+2022-11-17 23:17:46,827:ERROR:root:Traceback (most recent call last):
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 137, in readLinks
+    dataPoint = self.__readLink(link, dataDict, driver)
+  File "/Users/eugenganenco/Desktop/srealtyAnalysis/pythonScripts/housingDataCollector.py", line 172, in __readLink
+    parameterName = parameterElement.find_element(By.CSS_SELECTOR, 'label.param-label').text
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 419, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 396, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/Users/eugenganenco/.conda/envs/srealtyAnalysis/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+Stacktrace:
+0   chromedriver                        0x00000001055c1598 chromedriver + 4404632
+1   chromedriver                        0x0000000105548fa3 chromedriver + 3911587
+2   chromedriver                        0x00000001051f5e6a chromedriver + 425578
+3   chromedriver                        0x00000001051f9037 chromedriver + 438327
+4   chromedriver                        0x00000001051f8ed7 chromedriver + 437975
+5   chromedriver                        0x00000001051f919c chromedriver + 438684
+6   chromedriver                        0x000000010522d9a0 chromedriver + 653728
+7   chromedriver                        0x000000010522de91 chromedriver + 654993
+8   chromedriver                        0x0000000105222527 chromedriver + 607527
+9   chromedriver                        0x000000010524bdcd chromedriver + 777677
+10  chromedriver                        0x0000000105222465 chromedriver + 607333
+11  chromedriver                        0x000000010524befe chromedriver + 777982
+12  chromedriver                        0x0000000105262f79 chromedriver + 872313
+13  chromedriver                        0x000000010524bbd3 chromedriver + 777171
+14  chromedriver                        0x0000000105220ced chromedriver + 601325
+15  chromedriver                        0x0000000105221e51 chromedriver + 605777
+16  chromedriver                        0x00000001055910ce chromedriver + 4206798
+17  chromedriver                        0x0000000105595797 chromedriver + 4224919
+18  chromedriver                        0x000000010559ca4f chromedriver + 4254287
+19  chromedriver                        0x00000001055964da chromedriver + 4228314
+20  chromedriver                        0x000000010556f23f chromedriver + 4067903
+21  chromedriver                        0x00000001055b36a8 chromedriver + 4347560
+22  chromedriver                        0x00000001055b3816 chromedriver + 4347926
+23  chromedriver                        0x00000001055c88fe chromedriver + 4434174
+24  libsystem_pthread.dylib             0x00007fff6ce6b109 _pthread_start + 148
+25  libsystem_pthread.dylib             0x00007fff6ce66b8b thread_start + 15
+
+
+2022-11-17 23:23:47,421:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ostrava-muglinov-/3612522316
+2022-11-17 23:23:59,033:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ostrava-stara-bela-gregarkova/3528361804
+2022-11-17 23:24:41,591:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/rodinny/ostrava-hostalkovice-aleje/1158432332
+2022-11-17 23:28:38,565:ERROR:root:NoSuchElementException https://www.sreality.cz/detail/prodej/dum/chata/ostrava-petrkovice-srnci/2147841612
