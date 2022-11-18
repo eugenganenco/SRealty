@@ -12,8 +12,8 @@ class DataPreprocessor:
         self.__df = pd.read_csv(path)
 
     def setUpData(self):
-        self.translateColumns()
-        self.findCoordinates()
+        #self.translateColumns()
+        #self.findCoordinates()
         self.findPrice()
 
     def translateColumns(self):
