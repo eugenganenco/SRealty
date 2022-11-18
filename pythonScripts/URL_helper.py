@@ -33,6 +33,5 @@ class URL_helper:
                 regionsSet = regionsSet.union(set(self.__HOUSE_LOCATIONS_DICT[region]))
         return regionsSet
 
-    # function used to check if the number of regions in the dataset is equal to that in the geojson file.
     def getLen(self):
         return len(self.getLocationsSet())

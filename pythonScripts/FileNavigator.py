@@ -44,7 +44,15 @@ class FileNavigator:
     def getLatestTxtFile(self):
         try:
             print(os.getcwd())
-            list_of_files = glob.glob(f'{os.getcwd()}/*.txt')
+            list_of_files = glob.glob(f'{os.getcwd()}/*.csv')
             return max(list_of_files, key=os.path.getctime)
         except OSError:
             logging.error(f'Error: Finding the latest txt file')
+
+    def getLatestCsvFile(self):
+        try:
+            print(os.getcwd())
+            list_of_files = glob.glob(f'{os.getcwd()}/*.txt')
+            return max(list_of_files, key=os.path.getctime)
+        except OSError:
+            logging.error(f'Error: Finding the latest csv file')
