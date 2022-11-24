@@ -34,22 +34,9 @@ class housingDataCollector():
         loginPassword.send_keys(Keys.RETURN)
         time_.sleep(8)
 
-    # def __setUp(self, driver):
-    #     driver.find_element(By.CLASS_NAME,'dir-hp-signpost__item__link').click()
-    #     time_.sleep(3)
-    #     driver.find_element(By.CLASS_NAME, 'btn-XL').click()
-    #     time_.sleep(3)
-    #     driver.find_element(By.CSS_SELECTOR,'span.sort.per-page-select.right-arrow').click()
-    #     time_.sleep(3)
-    #     options = driver.find_elements(By.CSS_SELECTOR, 'span.options')
-    #     buttons = options[1].find_elements(By.CSS_SELECTOR, 'button.item.ng-binding')
-    #     buttons[1].click()
-    #     time_.sleep(3)
-
     def saveLinks(self):
         with webdriver.Chrome(self._PATH) as driver:
             self.__login(driver)
-            #self.__setUp(driver)
             self.fileNavigator.makeDataFolder()
             self.fileNavigator.goToFreshDataFolder()
             self.__browse(driver)
