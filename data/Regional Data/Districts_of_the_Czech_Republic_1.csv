@@ -1,0 +1,80 @@
+Region,District,"Area
+(km2)","Population
+(2022)",Mun.
+Prague,Prague,496,"1,275,406",1
+Central Bohemian Region,Benešov,"1,475","99,323",114
+Central Bohemian Region,Beroun,662,"96,624",85
+Central Bohemian Region,Kladno,720,"164,493",100
+Central Bohemian Region,Kolín,748,"103,894",90
+Central Bohemian Region,Kutná Hora,917,"75,683",88
+Central Bohemian Region,Mělník,701,"109,354",69
+Central Bohemian Region,Mladá Boleslav,"1,023","127,592",120
+Central Bohemian Region,Nymburk,846,"101,120",86
+Central Bohemian Region,Prague-East,755,"188,384",110
+Central Bohemian Region,Prague-West,580,"151,093",79
+Central Bohemian Region,Příbram,"1,693","114,366",120
+Central Bohemian Region,Rakovník,896,"54,898",83
+South Bohemian Region,České Budějovice,"1,639","195,533",109
+South Bohemian Region,Český Krumlov,"1,616","60,096",46
+South Bohemian Region,Jindřichův Hradec,"1,944","89,283",106
+South Bohemian Region,Písek,"1,127","70,769",75
+South Bohemian Region,Prachatice,"1,375","50,230",65
+South Bohemian Region,Strakonice,"1,032","69,773",112
+South Bohemian Region,Tábor,"1,326","101,363",110
+Plzeň Region,Domažlice,"1,052","54,391",76
+Plzeň Region,Klatovy,"1,946","84,614",94
+Plzeň Region,Plzeň-City,261,"188,407",15
+Plzeň Region,Plzeň-South,"1,068","68,918",99
+Plzeň Region,Plzeň-North,"1,287","80,666",98
+Plzeň Region,Rokycany,575,"48,770",68
+Plzeň Region,Tachov,"1,378","52,941",51
+Karlovy Vary Region,Cheb,"1,046","87,958",40
+Karlovy Vary Region,Karlovy Vary,"1,515","110,052",55
+Karlovy Vary Region,Sokolov,754,"85,200",38
+Ústí nad Labem Region,Chomutov,935,"121,480",44
+Ústí nad Labem Region,Děčín,909,"126,294",52
+Ústí nad Labem Region,Litoměřice,"1,032","117,582",105
+Ústí nad Labem Region,Louny,"1,118","85,381",70
+Ústí nad Labem Region,Most,467,"106,773",26
+Ústí nad Labem Region,Teplice,469,"124,472",34
+Ústí nad Labem Region,Ústí nad Labem,405,"116,916",23
+Liberec Region,Česká Lípa,"1,073","101,962",57
+Liberec Region,Jablonec nad Nisou,439,"90,171",35
+Liberec Region,Liberec,989,"173,890",59
+Liberec Region,Semily,662,"71,547",65
+Hradec Králové Region,Hradec Králové,892,"162,400",104
+Hradec Králové Region,Jičín,887,"78,713",111
+Hradec Králové Region,Náchod,852,"107,973",78
+Hradec Králové Region,Rychnov nad Kněžnou,982,"78,424",80
+Hradec Králové Region,Trutnov,"1,147","115,073",75
+Pardubice Region,Chrudim,993,"103,746",108
+Pardubice Region,Pardubice,880,"172,224",112
+Pardubice Region,Svitavy,"1,379","102,866",116
+Pardubice Region,Ústí nad Orlicí,"1,267","135,682",115
+Vysočina Region,Havlíčkův Brod,"1,265","93,692",120
+Vysočina Region,Jihlava,"1,199","112,415",123
+Vysočina Region,Pelhřimov,"1,290","71,571",120
+Vysočina Region,Třebíč,"1,463","109,183",167
+Vysočina Region,Žďár nad Sázavou,"1,579","117,164",174
+South Moravian Region,Blansko,862,"107,912",116
+South Moravian Region,Břeclav,"1,038","114,801",63
+South Moravian Region,Brno-City,230,"379,466",1
+South Moravian Region,Brno-Country,"1,499","225,514",187
+South Moravian Region,Hodonín,"1,099","151,096",82
+South Moravian Region,Vyškov,876,"92,317",79
+South Moravian Region,Znojmo,"1,590","113,462",144
+Olomouc Region,Jeseník,719,"36,752",24
+Olomouc Region,Olomouc,"1,620","233,588",97
+Olomouc Region,Přerov,845,"126,613",105
+Olomouc Region,Prostějov,770,"107,580",97
+Olomouc Region,Šumperk,"1,313","118,397",78
+Zlín Region,Kroměříž,796,"103,445",79
+Zlín Region,Uherské Hradiště,991,"139,829",78
+Zlín Region,Vsetín,"1,131","140,171",59
+Zlín Region,Zlín,"1,046","188,987",91
+Moravian-Silesian Region,Bruntál,"1,537","89,547",67
+Moravian-Silesian Region,Frýdek-Místek,"1,208","212,347",72
+Moravian-Silesian Region,Karviná,356,"240,319",17
+Moravian-Silesian Region,Nový Jičín,882,"149,919",54
+Moravian-Silesian Region,Opava,"1,113","173,753",77
+Moravian-Silesian Region,Ostrava-City,332,"312,104",13

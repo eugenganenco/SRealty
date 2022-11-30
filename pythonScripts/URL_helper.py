@@ -17,6 +17,27 @@ class URL_helper:
                                        'Zlinsky': ['kromeriz', 'uherske-hradiste', 'vsetin', 'zlin'],
                                        'Moravskoslezsky': ['bruntal', 'frydek-mistek', 'karvina', 'novy-jicin', 'opava', 'ostrava']}
 
+        self.__ENGLISH_NAME_TO_CZECH = {'Praha': 'Prague', 'benesov': 'Benešov', 'beroun': 'Beroun', 'kladno': 'Kladno', 'kolin': 'Kolín',
+                                       'kutna-hora': 'Kutná Hora', 'melnik': 'Mělník', 'mlada-boleslav': 'Mladá Boleslav', 'nymburk': 'Nymburk',
+                                       'praha-vychod': 'Prague-East', 'praha-zapad': 'Prague-West', 'pribram': 'Příbram', 'rakovnik': 'Rakovník',
+                                       'ceske-budejovice': 'České Budějovice','cesky-krumlov': 'Český Krumlov','jindrichuv-hradec': 'Jindřichův Hradec',
+                                       'pisek': 'Písek', 'prachatice': 'Prachatice', 'strakonice': 'Strakonice', 'tabor': 'Tábor', 'domazlice': 'Domažlice',
+                                       'klatovy': 'Klatovy', 'plzen': 'Plzeň-City', 'plzen-jih': 'Plzeň-South', 'plzen-sever': 'Plzeň-North',
+                                       'rokycany': 'Rokycany', 'tachov': 'Tachov', 'cheb': 'Cheb', 'karlovy-vary': 'Karlovy Vary', 'sokolov': 'Sokolov',
+                                       'chomutov': 'Chomutov', 'decin': 'Děčín', 'litomerice': 'Litoměřice', 'louny': 'Louny', 'most': 'Most', 'teplice': 'Teplice',
+                                       'usti-nad-labem': 'Ústí nad Labem', 'ceska-lipa': 'Česká Lípa', 'jablonec-nad-nisou': 'Jablonec nad Nisou',
+                                       'liberec': 'Liberec', 'semily': 'Semily', 'hradec-kralove': 'Hradec Králové', 'jicin': 'Jičín', 'nachod': 'Náchod',
+                                       'rychnov-nad-kneznou': 'Rychnov nad Kněžnou', 'trutnov': 'Trutnov', 'chrudim': 'Chrudim', 'pardubice': 'Pardubice',
+                                       'svitavy': 'Svitavy', 'usti-nad-orlici': 'Ústí nad Orlicí', 'havlickuv-brod': 'Havlíčkův Brod', 'jihlava': 'Jihlava',
+                                       'pelhrimov': 'Pelhřimov', 'trebic': 'Třebíč', 'zdar-nad-sazavou': 'Žďár nad Sázavou', 'blansko': 'Blansko',
+                                       'breclav': 'Břeclav', 'brno': 'Brno-City', 'brno-venkov': 'Brno-Country', 'hodonin': 'Hodonín', 'vyskov': 'Vyškov',
+                                       'znojmo': 'Znojmo', 'jesenik': 'Jeseník', 'olomouc': 'Olomouc', 'prerov': 'Přerov', 'prostejov': 'Prostějov',
+                                       'sumperk': 'Šumperk', 'kromeriz': 'Kroměříž', 'uherske-hradiste': 'Uherské Hradiště', 'vsetin': 'Vsetín',
+                                        'zlin': 'Zlín', 'bruntal': 'Bruntál', 'frydek-mistek': 'Frýdek-Místek', 'karvina': 'Karviná', 'novy-jicin': 'Nový Jičín',
+                                        'opava': 'Opava', 'ostrava': 'Ostrava-City'}
+
+    def getEnglishNameToCzechDict(self):
+        return self.__ENGLISH_NAME_TO_CZECH
 
     def getHouseTypesList(self):
         return self.__HOUSE_TYPES_LIST
