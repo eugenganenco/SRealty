@@ -1,8 +1,9 @@
 from aiogram import Bot
 from aiogram.dispatcher import Dispatcher
-from Token import Token
-# stores data in memory
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from telegramBot.Token import Token
+# stores data in memory
+
 
 storage = MemoryStorage()
 bot = Bot(Token().getToken())

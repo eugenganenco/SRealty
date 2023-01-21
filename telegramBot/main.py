@@ -6,7 +6,7 @@ async def on_startup(_):
     print('Bot is online')
     print('Access to data base')
 
-from handlers import client, other
+from telegramBot.handlers import client, other
 
 client.register_handlers_client(dp)
 other.register_handlers_other(dp)
