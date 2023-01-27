@@ -5,7 +5,7 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 from telegramBot.create_bot import dp, bot
 from telegramBot.Token import Token
-
+from create_bot import cur, base
 
 async def on_startup(dp):
     print('Bot is online')
@@ -13,6 +13,8 @@ async def on_startup(dp):
 
 async def on_shutdown(dp):
     await bot.delete_webhook()
+    cur.close()
+    base.close()
 
 from telegramBot.handlers import client, other
 
