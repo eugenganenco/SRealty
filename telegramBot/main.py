@@ -1,27 +1,22 @@
 import os
-
-from aiogram import Bot, types, utils
-from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 from telegramBot.create_bot import dp, bot
-from telegramBot.Token import Token
+from telegramBot.config import URL_APP
+from telegramBot.handlers import client, other
 from create_bot import cur, base
 
-async def on_startup(dp):
+async def on_startup():
     print('Bot is online')
-    await bot.set_webhook(Token().getUrl())
+    await bot.set_webhook(URL_APP)
 
-async def on_shutdown(dp):
+async def on_shutdown():
     await bot.delete_webhook()
     cur.close()
     base.close()
 
-from telegramBot.handlers import client, other
-
 client.register_handlers_client(dp)
 other.register_handlers_other(dp)
 
-#when bot online will not respond to queries sent when it was offline
 executor.start_webhook(
     dispatcher=dp,
     webhook_path='',
