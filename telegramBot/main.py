@@ -5,11 +5,11 @@ from telegramBot.config import API_TOKEN
 from aiogram.utils import executor
 from telegramBot.config import URL_APP
 from telegramBot.handlers import client, other
-from telegramBot.dataBase import dataBase
+from telegramBot.dataBase import dataBase as db
 
 bot = Bot(API_TOKEN)
 dp = Dispatcher(bot)
-db = dataBase.Database()
+
 
 
 async def on_startup():
