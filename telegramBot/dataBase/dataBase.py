@@ -31,7 +31,7 @@ def update_subscription(user_id, status):
         return cursor.execute("UPDATE `subscriptions` SET `status` = ? WHERE `user_id` = ?", (status, user_id))
 
 
-def close(self):
+def close():
     """Close database"""
-    self.cursor.close()
-    self.connection.close()
+    cursor.close()
+    connection.close()
