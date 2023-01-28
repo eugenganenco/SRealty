@@ -1,18 +1,26 @@
 import os
+from aiogram import Bot
+from aiogram.dispatcher import Dispatcher
+from telegramBot.config import API_TOKEN
 from aiogram.utils import executor
-from telegramBot.create_bot import dp, bot
 from telegramBot.config import URL_APP
 from telegramBot.handlers import client, other
-from create_bot import cur, base
+from telegramBot.dataBase import dataBase
+
+bot = Bot(API_TOKEN)
+dp = Dispatcher(bot)
+db = dataBase.Database()
+
 
 async def on_startup():
     print('Bot is online')
     await bot.set_webhook(URL_APP)
 
+
+# don't forget to close the db (cursor and database)
 async def on_shutdown():
     await bot.delete_webhook()
-    cur.close()
-    base.close()
+    await db.close()
 
 client.register_handlers_client(dp)
 other.register_handlers_other(dp)
