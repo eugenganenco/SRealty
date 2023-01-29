@@ -1,5 +1,4 @@
 from aiogram import types, Dispatcher
-from telegramBot.main import bot
 
 #@dp.message_handler()
 async def echo_send(message: types.Message):
