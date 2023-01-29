@@ -12,13 +12,13 @@ dp = Dispatcher(bot)
 
 
 
-async def on_startup():
+async def on_startup(dp):
     print('Bot is online')
     await bot.set_webhook(URL_APP)
 
 
 # don't forget to close the db (cursor and database)
-async def on_shutdown():
+async def on_shutdown(dp):
     await bot.delete_webhook()
     await db.close()
 
