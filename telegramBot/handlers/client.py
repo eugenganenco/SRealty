@@ -1,12 +1,13 @@
 from aiogram import types, Dispatcher
 from telegramBot.keyboards import kb_client
 from telegramBot.dataBase import dataBase as db
-import telegramBot.main
+
 
 
 
 #@dp.message_handler(commands=['start', 'help'])
 async def commands_start(message: types.message):
+    import telegramBot.main
     try:
         await telegramBot.main.bot.send_message(message.from_user.id, 'Bon appetite', reply_markup=kb_client )
         await message.delete()
@@ -15,6 +16,7 @@ async def commands_start(message: types.message):
 
 #@dp.message_handler(commands=['Menu'])
 async def commands_menu(message: types.message):
+    import telegramBot.main
     await telegramBot.main.bot.send_message(message.from_user.id, 'this is Menu')
 
 
