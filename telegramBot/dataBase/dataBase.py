@@ -8,14 +8,15 @@ cursor = connection.cursor()
 def get_subscriptions(status=True):
     """Get all active subscribers to the bot"""
     with connection:
-        return cursor.execute("SELECT * FROM subscriptions WHERE status = %s", (status,)).fetchall()
+        cursor.execute("SELECT * FROM subscriptions WHERE status = %s", (status,))
+        return cursor.fetchall()
 
 
 def subscriber_exists(user_id):
     """Check if there already is such a subscriber in the database"""
     with connection:
-        result = cursor.execute('SELECT * FROM subscriptions WHERE user_id = %s', (user_id,)).fetchall()
-        return bool(len(result))
+        cursor.execute('SELECT * FROM subscriptions WHERE user_id = %s', (user_id,))
+        return bool(len(cursor.fetchall()))
 
 
 def add_subscriber(user_id, status=True):
