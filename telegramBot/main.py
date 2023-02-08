@@ -43,6 +43,7 @@ scheduler.start()
 
 
 executor.start_webhook(
+    loop=scheduler,
     dispatcher=dp,
     webhook_path='',
     on_startup=on_startup,
