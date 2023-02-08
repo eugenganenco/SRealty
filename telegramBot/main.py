@@ -1,4 +1,7 @@
+import asyncio
 import os
+from datetime import datetime
+
 from aiogram import Bot
 from aiogram.dispatcher import Dispatcher
 from telegramBot.config import API_TOKEN
@@ -22,6 +25,15 @@ async def on_shutdown(dp):
     await bot.delete_webhook()
     await db.close()
 
+
+async def sendNotification(frequency):
+    while True:
+        await asyncio.sleep(frequency)
+
+        now = datetime.utcnow()
+        await bot.send_message(db.get_subscriptions(), f"{now}")
+
+dp.loop.create_task(sendNotification(10))
 client.register_handlers_client(dp)
 other.register_handlers_other(dp)
 
