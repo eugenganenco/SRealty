@@ -41,6 +41,7 @@ loop = asyncio.get_event_loop()
 loop.create_task(sendNotification(10))
 
 executor.start_webhook(
+    loop=loop,
     dispatcher=dp,
     webhook_path='',
     on_startup=on_startup,
