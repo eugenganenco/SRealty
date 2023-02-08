@@ -24,7 +24,7 @@ async def on_startup(dp):
         now = datetime.utcnow()
         subscribers = db.get_subscriptions()
         for subscriber in subscribers:
-            await bot.send_message(subscriber, f"{now}")
+            await bot.send_message(subscriber[0], f"{now}")
         await asyncio.sleep(8)
 
 
