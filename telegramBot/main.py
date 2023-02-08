@@ -17,15 +17,20 @@ dp = Dispatcher(bot)
 
 
 
-async def on_startup(dp):
-    print('Bot is online')
-    await bot.set_webhook(URL_APP)
+
+async def notify(interval):
     while True:
         now = datetime.utcnow()
         subscribers = db.get_subscriptions()
         for subscriber in subscribers:
             await bot.send_message(subscriber[0], f"{now}")
-        await asyncio.sleep(8)
+        await asyncio.sleep(interval)
+
+
+async def on_startup(dp):
+    print('Bot is online')
+    await bot.set_webhook(URL_APP)
+    asyncio.create_task(notify(6))
 
 
 async def on_shutdown(dp):
