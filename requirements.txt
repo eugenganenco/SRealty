@@ -25,7 +25,7 @@ idna==2.10
 joblib==1.2.0
 lxml==4.9.1
 magic-filter==1.0.9
-
+APScheduler==3.10.0
 multidict==6.0.4
 
 outcome==1.2.0

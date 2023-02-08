@@ -9,6 +9,7 @@ from aiogram.utils import executor
 from telegramBot.config import URL_APP
 from telegramBot.handlers import client, other
 from telegramBot.dataBase import dataBase as db
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 bot = Bot(API_TOKEN)
 dp = Dispatcher(bot)
@@ -26,22 +27,22 @@ async def on_shutdown(dp):
     await db.close()
 
 
-async def sendNotification(frequency):
-    while True:
-        await asyncio.sleep(frequency)
-
-        now = datetime.utcnow()
-        await bot.send_message(db.get_subscriptions(), f"{now}")
+async def sendNotification():
+    now = datetime.utcnow()
+    await bot.send_message(db.get_subscriptions(), f"{now}")
 
 
 client.register_handlers_client(dp)
 other.register_handlers_other(dp)
 
-loop = asyncio.get_event_loop()
-loop.create_task(sendNotification(10))
+scheduler = AsyncIOScheduler()
+scheduler.add_job(sendNotification, 'interval', seconds=10)
+scheduler.start()
+
+
+
 
 executor.start_webhook(
-    loop=loop,
     dispatcher=dp,
     webhook_path='',
     on_startup=on_startup,
