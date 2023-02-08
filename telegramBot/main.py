@@ -33,9 +33,12 @@ async def sendNotification(frequency):
         now = datetime.utcnow()
         await bot.send_message(db.get_subscriptions(), f"{now}")
 
-dp.loop.create_task(sendNotification(10))
+
 client.register_handlers_client(dp)
 other.register_handlers_other(dp)
+
+loop = asyncio.get_event_loop()
+loop.create_task(sendNotification(10))
 
 executor.start_webhook(
     dispatcher=dp,
