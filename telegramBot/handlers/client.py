@@ -20,7 +20,6 @@ async def commands_menu(message: types.message):
     await main.bot.send_message(message.from_user.id, 'this is Menu')
 
 
-# Команда активации подписки
 # @dp.message_handler(commands=['subscribe'])
 async def subscribe(message: types.Message):
     if (not db.subscriber_exists(message.from_user.id)):
@@ -34,7 +33,6 @@ async def subscribe(message: types.Message):
         "You have successfully subscribed to the bot")
 
 
-# Команда отписки
 # @dp.message_handler(commands=['unsubscribe'])
 async def unsubscribe(message: types.Message):
     if (not db.subscriber_exists(message.from_user.id)):

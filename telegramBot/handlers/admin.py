@@ -29,4 +29,4 @@ async def on_file_received(message: types.Message):
 
 
 def register_handlers_client(dp: Dispatcher):
-    dp.register_message_handler(on_file_received, content_types=types.ContentType.DOCUMENT)
+    dp.register_message_handler(on_file_received, commands=['upload'], content_types=types.ContentType.DOCUMENT)
