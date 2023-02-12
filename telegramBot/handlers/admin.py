@@ -27,5 +27,15 @@ async def on_file_received(message: types.Message):
     main.bot.notify()
 
 
+async def on_file_received2(message: types.Message):
+    file_id = message.document.file_id
+    from telegramBot import main
+    file = await main.bot.download_file_by_id(file_id)
+    file_path = os.path.join('..', 'newHouses.csv')
+    with open(file_path, 'wb') as f:
+        f.write(file)
+    await main.bot.send_message(chat_id=message.chat.id, text='CSV file has been saved.')
+    # main.bot.notify()
+
 def register_handlers_client(dp: Dispatcher):
-    dp.register_message_handler(on_file_received, content_types=['document'])
+    dp.register_message_handler(on_file_received2, content_types=['document'])
