@@ -8,7 +8,7 @@ from aiogram.dispatcher import Dispatcher
 from telegramBot.config import API_TOKEN
 from aiogram.utils import executor
 from telegramBot.config import URL_APP
-from telegramBot.handlers import client, other
+from telegramBot.handlers import client, other, admin
 from telegramBot.dataBase import dataBase as db
 
 
@@ -66,7 +66,7 @@ async def on_shutdown(dp):
 
 client.register_handlers_client(dp)
 other.register_handlers_other(dp)
-
+admin.register_handlers_client(dp)
 
 
 executor.start_webhook(
