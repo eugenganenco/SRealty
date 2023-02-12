@@ -15,7 +15,7 @@ async def on_file_received(message: types.Message):
 
     # Use the aiogram bot to download the file
     from telegramBot import main
-    async with main.bot.api.get_file(file_id) as resp:
+    async with main.bot.get_file(file_id) as resp:
         file_data = await resp.read()
 
     # Save the file in the desired location
