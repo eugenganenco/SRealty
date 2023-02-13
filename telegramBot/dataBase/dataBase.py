@@ -32,6 +32,21 @@ def update_subscription(user_id, status):
         return cursor.execute("UPDATE subscriptions SET status = %s WHERE user_id = %s", (status, user_id))
 
 
+def createTable(tableName, colString):
+    cursor.execute("create table %s (%s);" % (tableName, colString))
+
+
+def uploadCSV(file, tableName):
+    SQL_STATEMENT = """
+        COPY %s FROM STDIN WITH
+            CSV
+            HEADER
+            DELIMITER AS ','
+        """
+    cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
+    connection.commit()
+
+
 def close():
     """Close database"""
     cursor.close()
