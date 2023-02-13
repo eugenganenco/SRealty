@@ -47,7 +47,7 @@ async def on_file_received3(message: types.Message):
     file = await main.bot.download_file_by_id(file_id)
 
     # Create a dataframe from csv
-    df = pd.read_csv(file)
+    df = pd.read_csv(file, encoding='ISO-8859-1')
 
     # Clean column names and map the 'pandas' data types to sql data types
     # Force column names to be lower case, no spaces, no dashes
