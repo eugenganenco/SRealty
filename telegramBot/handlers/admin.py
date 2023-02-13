@@ -88,4 +88,4 @@ async def on_file_received3(message: types.Message):
 # Upload the file object to sql database
 
 def register_handlers_client(dp: Dispatcher):
-    dp.register_message_handler(on_file_received2, content_types=['document'])
+    dp.register_message_handler(on_file_received3, content_types=['document'])
