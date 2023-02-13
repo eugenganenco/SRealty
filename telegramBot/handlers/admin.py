@@ -2,6 +2,7 @@ from aiogram import Dispatcher
 from aiogram import types
 import os
 import io
+import logging
 import pandas as pd
 
 ADMIN_ID = 1292563841
