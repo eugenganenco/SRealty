@@ -49,7 +49,7 @@ async def on_file_received3(message: types.Message):
 
     # Create a dataframe from csv
     #df = pd.read_csv(io.StringIO(file.decode('utf-8')).getvalue())
-    df = pd.read_csv(io.BytesIO(file.decode('utf-8')))
+    df = pd.read_csv(io.BytesIO(file))
 
     # Clean column names and map the 'pandas' data types to sql data types
     # Force column names to be lower case, no spaces, no dashes
