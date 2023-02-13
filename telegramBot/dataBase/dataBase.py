@@ -33,7 +33,8 @@ def update_subscription(user_id, status):
 
 
 def createTable(tableName, colString):
-    cursor.execute("create table %s (%s);" % (tableName, colString))
+    with connection:
+        cursor.execute("create table %s (%s);" % (tableName, colString))
 
 
 def uploadCSV(file, tableName):
