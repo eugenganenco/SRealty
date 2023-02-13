@@ -1,6 +1,7 @@
 from aiogram import Dispatcher
 from aiogram import types
 import os
+import io
 import pandas as pd
 
 ADMIN_ID = 1292563841
@@ -47,7 +48,8 @@ async def on_file_received3(message: types.Message):
     file = await main.bot.download_file_by_id(file_id)
 
     # Create a dataframe from csv
-    df = pd.read_csv(file)
+    #df = pd.read_csv(io.StringIO(file.decode('utf-8')).getvalue())
+    df = pd.read_csv(io.BytesIO(file.decode('utf-8')))
 
     # Clean column names and map the 'pandas' data types to sql data types
     # Force column names to be lower case, no spaces, no dashes
