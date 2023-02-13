@@ -5,6 +5,7 @@ import pandas as pd
 
 ADMIN_ID = 1292563841
 
+
 async def on_file_received(message: types.Message):
     # Check if the sender is an admin of the bot
     if message.from_user.id != ADMIN_ID:
@@ -46,12 +47,12 @@ async def on_file_received3(message: types.Message):
     file = await main.bot.download_file_by_id(file_id)
 
     # Create a dataframe from csv
-    df = pd.read_csv
+    df = pd.read_csv(file)
 
     # Clean column names and map the 'pandas' data types to sql data types
     # Force column names to be lower case, no spaces, no dashes
-    df.columns = [
-        x.lower().replace(" ", "_").replace("-", "_").replace(r"/", "_").replace("\\", "_").replace(".", "_").replace("$", "").replace("%", "") for x in df.columns]
+    df.columns = [x.lower().replace(" ", "_").replace("-", "_").replace(r"/", "_") \
+                      .replace("\\", "_").replace(".", "_").replace("$", "").replace("%", "") for x in df.columns]
 
     # Dictionary that maps pandas data types to sql datatypes
     replacements = {
@@ -77,6 +78,7 @@ async def on_file_received3(message: types.Message):
 
     # Send recommendation to the subscribers based on the new properties uploaded
     main.bot.notify()
+
 
 # Get data in csv form
 # Create a dataframe from csv
