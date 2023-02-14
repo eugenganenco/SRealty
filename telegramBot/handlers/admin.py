@@ -71,7 +71,7 @@ async def on_file_received3(message: types.Message):
         "{} {}".format(n, d) for (n, d) in zip(df.columns, df.dtypes.replace(replacements)))
 
     # Create SQL table
-    await main.db.createTable('uploadedProperties.csv', columnString)
+    await main.db.create_table('uploadedProperties.csv', columnString)
 
     # Upload the cvs file data to the sql database
     await main.db.uploadCSV(file, 'uploadedProperties.csv')

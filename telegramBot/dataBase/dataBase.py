@@ -1,8 +1,10 @@
 import os
 import psycopg2 as ps
+import logging
 
 connection = ps.connect(os.environ.get('DATABASE_URL'), sslmode='require')
 cursor = connection.cursor()
+logging.basicConfig(level=logging.DEBUG)
 
 
 def get_subscriptions(status=True):
@@ -32,7 +34,8 @@ def update_subscription(user_id, status):
         return cursor.execute("UPDATE subscriptions SET status = %s WHERE user_id = %s", (status, user_id))
 
 
-def createTable(tableName, colString):
+def create_table(tableName, colString):
+    logging.debug(f'Table name: {tableName}; \n Column string: {colString}')
     with connection:
         cursor.execute("create table %s (%s);" % (tableName, colString))
 
