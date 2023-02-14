@@ -36,8 +36,11 @@ def update_subscription(user_id, status):
 
 def create_table(tableName, colString):
     logging.debug(f'Table name: {tableName}; \n Column string: {colString}')
+    
+    # drop table with same name
+    cursor.execute("drop table if exists %s;" % (tableName))
     with connection:
-        cursor.execute("create table %s.%s (%s);" % ('public', tableName, colString))
+        cursor.execute("create table %s (%s);" % (tableName, colString))
 
 
 def uploadCSV(file, tableName):
