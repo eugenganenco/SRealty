@@ -38,7 +38,7 @@ def create_table(tableName, colString):
     logging.debug(f'Table name: {tableName}; \n Column string: {colString}')
 
     # drop table with same name
-    cursor.execute("drop table if exists %s", (tableName))
+    cursor.execute("drop table if exists %s", (tableName,))
     with connection:
         cursor.execute("create table %s (%s)", (tableName, colString))
 
