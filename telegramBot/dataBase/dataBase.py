@@ -24,8 +24,10 @@ def subscriber_exists(user_id):
 def add_subscriber(user_id, status=True):
     """Add a new subscriber"""
     with connection:
+        connection.commit()
         return cursor.execute("INSERT INTO subscriptions (user_id, status) VALUES(%s, %s)",
                                    (user_id, status))
+
 
 
 def update_subscription(user_id, status):
