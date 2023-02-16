@@ -50,6 +50,7 @@ def uploadCSV(file, tableName):
                 DELIMITER AS ','
             """
     cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
+    cursor.execute("grant select on table %s to public" % tableName)
     connection.commit()
 
 
