@@ -62,7 +62,7 @@ async def on_startup(dp):
 
 async def on_shutdown(dp):
     await bot.delete_webhook()
-    await db.close()
+    db.close()
 
 client.register_handlers_client(dp)
 other.register_handlers_other(dp)
