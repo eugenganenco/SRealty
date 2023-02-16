@@ -1,6 +1,8 @@
 import asyncio
+import logging
 import os
 import dill
+import logging
 import pandas as pd
 from datetime import datetime
 from aiogram import Bot
@@ -12,7 +14,7 @@ from telegramBot.handlers import client, other, admin
 from telegramBot.dataBase import dataBase as db
 
 
-
+logging.basicConfig(level=logging.ERROR)
 
 bot = Bot(API_TOKEN)
 dp = Dispatcher(bot)
@@ -31,6 +33,7 @@ def predict(df):
 # the function should also use the criteria specified by each user
 def suggestProperties():
     df = db.get_new_properties()
+    logging.debug(df)
     df = predict(df)
     positiveRows = df.loc[df['Difference'] > 0]
     return positiveRows['link'].values.tolist()
