@@ -38,7 +38,8 @@ def create_table(tableName, colString):
     logging.debug(f'Table name: {tableName}; \n Column string: {colString}')
 
     with connection:
-        cursor.execute("create table %s (%s);" % (tableName, colString))
+        cursor.execute("DROP TABLE %s IF EXISTS;" % (tableName,))
+        cursor.execute("CREATE TABLE %s (%s);" % (tableName, colString))
 
 
 def uploadCSV(file, tableName):
