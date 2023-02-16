@@ -51,6 +51,8 @@ def uploadCSV(file, tableName):
             """
     cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
     cursor.execute("grant select on table %s to public" % tableName)
+    cursor.execute('SELECT * FROM %s;' % (tableName,))
+    logging.debug(cursor.fetchall())
     connection.commit()
 
 
