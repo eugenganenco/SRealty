@@ -4,7 +4,7 @@ import logging
 
 connection = ps.connect(os.environ.get('DATABASE_URL'), sslmode='require')
 cursor = connection.cursor()
-logging.basicConfig(level=logging.CRITICAL)
+logging.basicConfig(level=logging.ERROR)
 
 
 def get_subscriptions(status=True):
