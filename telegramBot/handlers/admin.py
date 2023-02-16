@@ -71,10 +71,10 @@ async def on_file_received3(message: types.Message):
         "{} {}".format(n, d) for (n, d) in zip(df.columns, df.dtypes.replace(replacements)))
 
     # Create SQL table
-    await main.db.create_table('uploadedProperties', columnString)
+    await main.db.create_table("uploadedProperties", columnString)
 
     # Upload the cvs file data to the sql database
-    await main.db.uploadCSV(file, 'uploadedProperties.csv')
+    await main.db.uploadCSV(file, "uploadedProperties.csv")
 
     # Confirm that the file was uploaded to the database
     await main.bot.send_message(chat_id=message.chat.id, text='CSV file has been saved.')
