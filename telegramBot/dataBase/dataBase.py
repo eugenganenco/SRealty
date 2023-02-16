@@ -37,23 +37,20 @@ def update_subscription(user_id, status):
 
 def create_table(tableName, colString):
     logging.debug(f'Table name: {tableName}; \n Column string: {colString}')
-
-    with connection:
-        cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
-        cursor.execute("CREATE TABLE %s (%s);" % (tableName, colString))
-        connection.commit()
+    cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
+    cursor.execute("CREATE TABLE %s (%s);" % (tableName, colString))
+    connection.commit()
 
 
 def uploadCSV(file, tableName):
-    with connection:
-        SQL_STATEMENT = """
+    SQL_STATEMENT = """
             COPY %s FROM STDIN WITH
                 CSV
                 HEADER
                 DELIMITER AS ','
             """
-        cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
-        connection.commit()
+    cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
+    connection.commit()
 
 
 def close():
