@@ -80,7 +80,7 @@ async def on_file_received3(message: types.Message):
     await main.bot.send_message(chat_id=message.chat.id, text='CSV file has been saved.')
 
     # Send recommendation to the subscribers based on the new properties uploaded
-    main.bot.notify()
+    await main.notify()
 
 
 # Get data in csv form
