@@ -24,7 +24,6 @@ def subscriber_exists(user_id):
 def add_subscriber(user_id, status=True):
     """Add a new subscriber"""
     with connection:
-        connection.commit()
         return cursor.execute("INSERT INTO subscriptions (user_id, status) VALUES(%s, %s)",
                                    (user_id, status))
 
@@ -42,6 +41,7 @@ def create_table(tableName, colString):
     with connection:
         cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
         cursor.execute("CREATE TABLE %s (%s);" % (tableName, colString))
+        connection.commit()
 
 
 def uploadCSV(file, tableName):
