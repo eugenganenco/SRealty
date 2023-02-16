@@ -4,13 +4,19 @@ import logging
 
 connection = ps.connect(os.environ.get('DATABASE_URL'), sslmode='require')
 cursor = connection.cursor()
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.CRITICAL)
 
 
 def get_subscriptions(status=True):
     """Get all active subscribers to the bot"""
     with connection:
         cursor.execute("SELECT * FROM subscriptions WHERE status = %s", (status,))
+        return cursor.fetchall()
+
+
+def get_new_properties():
+    with connection:
+        cursor.execute("SELECT * FROM uploadedproperties")
         return cursor.fetchall()
 
 
@@ -36,7 +42,7 @@ def update_subscription(user_id, status):
 
 
 def create_table(tableName, colString):
-    logging.debug(f'Table name: {tableName}; \n Column string: {colString}')
+    logging.critical(f'Table name: {tableName}; \n Column string: {colString}')
     cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
     cursor.execute("CREATE TABLE %s (%s);" % (tableName, colString))
     connection.commit()
@@ -51,8 +57,6 @@ def uploadCSV(file, tableName):
             """
     cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
     cursor.execute("grant select on table %s to public" % tableName)
-    cursor.execute('SELECT * FROM %s;' % (tableName,))
-    logging.debug(cursor.fetchall())
     connection.commit()
 
 

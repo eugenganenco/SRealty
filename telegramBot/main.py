@@ -30,7 +30,7 @@ def predict(df):
 
 # the function should also use the criteria specified by each user
 def suggestProperties():
-    df = pd.read_csv('newHouses.csv')
+    df = db.get_new_properties()
     df = predict(df)
     positiveRows = df.loc[df['Difference'] > 0]
     return positiveRows['link'].values.tolist()
