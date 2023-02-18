@@ -65,10 +65,10 @@ def create_table(tableName, colString):
 #     cursor.execute("grant select on table %s to public" % tableName)
 #     connection.commit()
 
-def uploadCSV(file, tableName):
-    df = pd.read_csv(file, encoding='iso-8859-1')
+
+def uploadCSV(df, tableName):
     logging.critical('THE DATAFRAME:\n' + df)
-    cursor.copy_from(file, tableName, sep=',')
+    df.to_sql(tableName, connection)
     connection.commit()
 
 
