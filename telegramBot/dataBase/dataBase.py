@@ -2,6 +2,7 @@ import csv
 import os
 import psycopg2 as ps
 import logging
+import pandas as pd
 
 connection = ps.connect(os.environ.get('DATABASE_URL'), sslmode='require')
 cursor = connection.cursor()
@@ -65,8 +66,11 @@ def create_table(tableName, colString):
 #     connection.commit()
 
 def uploadCSV(file, tableName):
+    df = pd.read_csv(file, encoding='iso-8859-1')
+    logging.critical('THE DATAFRAME:\n' + df)
     cursor.copy_from(file, tableName, sep=',')
     connection.commit()
+
 
 def close():
     """Close database"""
