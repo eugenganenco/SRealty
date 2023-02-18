@@ -60,12 +60,7 @@ def create_table(tableName, colString):
 #     cursor.execute("grant select on table %s to public" % tableName)
 #     connection.commit()
 
-def uploadCSV(file, tableName, colString):
-    # create table
-    logging.critical(f'Table name: {tableName}; \n Column string: {colString}')
-    cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
-    cursor.execute("CREATE TABLE %s (%s);" % (tableName, colString))
-
+def uploadCSV(file, tableName, colstring):
     # read the contents of the file
     with open(file, 'r') as f:
         reader = csv.reader(f)
@@ -73,8 +68,9 @@ def uploadCSV(file, tableName, colString):
         rows = [row for row in reader]
 
     # populate the table
-    insert_query = f"INSERT INTO {tableName} (name, age, city) VALUES %s"
+    insert_query = f"INSERT INTO {tableName} ({colstring}) VALUES %s"
     connection.execute_values(cursor, insert_query, rows)
+    connection.commit()
 
 def close():
     """Close database"""
