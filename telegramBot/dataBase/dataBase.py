@@ -68,6 +68,10 @@ def create_table(tableName, colString):
 
 def uploadCSV(df, tableName):
     for _, row in df.iterrows():
+
+        logging.critical(cursor.mogrify(f"INSERT INTO {tableName} "
+                       f"({', '.join(df.columns)}) "
+                       f"VALUES ({', '.join([str(val) for val in row])})"))
         cursor.execute(f"INSERT INTO {tableName} "
                        f"({', '.join(df.columns)}) "
                        f"VALUES ({', '.join([str(val) for val in row])})")
