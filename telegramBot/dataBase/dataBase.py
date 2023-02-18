@@ -47,7 +47,7 @@ def create_table(tableName, colString):
         logging.critical(f'Table name: {tableName}; \n Column string: {colString}')
         cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
         create_table_query = "CREATE TABLE %s (%s)\n;" % (tableName, colString)
-        logging.critical(f'create_table_query')
+        logging.critical(create_table_query)
         cursor.execute(create_table_query)
         connection.commit()
 
