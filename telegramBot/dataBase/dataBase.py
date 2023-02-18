@@ -49,6 +49,7 @@ def create_table(tableName, colString):
         create_table_query = "CREATE TABLE %s (%s);" % (tableName, colString)
         logging.critical(create_table_query)
         cursor.execute(create_table_query)
+        cursor.execute(f"ALTER TABLE {tableName} ADD PRIMARY KEY (link);")
         connection.commit()
 
 
