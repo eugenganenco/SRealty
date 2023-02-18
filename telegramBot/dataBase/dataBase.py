@@ -46,24 +46,26 @@ def create_table(tableName, colString):
     with connection:
         logging.critical(f'Table name: {tableName}; \n Column string: {colString}')
         cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
-        create_table_query = "CREATE TABLE %s (%s)\n;" % (tableName, colString)
+        create_table_query = "CREATE TABLE %s (%s);" % (tableName, colString)
         logging.critical(create_table_query)
         cursor.execute(create_table_query)
         connection.commit()
 
 
+# def uploadCSV(file, tableName):
+#     SQL_STATEMENT = """
+#             COPY %s FROM STDIN WITH
+#                 CSV
+#                 HEADER
+#                 DELIMITER AS ','
+#             """
+#     cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
+#     cursor.execute("grant select on table %s to public" % tableName)
+#     connection.commit()
+
 def uploadCSV(file, tableName):
-    SQL_STATEMENT = """
-            COPY %s FROM STDIN WITH
-                CSV
-                HEADER
-                DELIMITER AS ','
-            """
-    cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
-    cursor.execute("grant select on table %s to public" % tableName)
+    cursor.copy_from(file, tableName, sep=',')
     connection.commit()
-
-
 
 def close():
     """Close database"""
