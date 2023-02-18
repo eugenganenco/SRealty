@@ -1,3 +1,4 @@
+import csv
 import os
 import psycopg2 as ps
 import logging
@@ -48,17 +49,32 @@ def create_table(tableName, colString):
     connection.commit()
 
 
-def uploadCSV(file, tableName):
-    SQL_STATEMENT = """
-            COPY %s FROM STDIN WITH
-                CSV
-                HEADER
-                DELIMITER AS ','
-            """
-    cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
-    cursor.execute("grant select on table %s to public" % tableName)
-    connection.commit()
+# def uploadCSV(file, tableName):
+#     SQL_STATEMENT = """
+#             COPY %s FROM STDIN WITH
+#                 CSV
+#                 HEADER
+#                 DELIMITER AS ','
+#             """
+#     cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
+#     cursor.execute("grant select on table %s to public" % tableName)
+#     connection.commit()
 
+def uploadCSV(file, tableName, colString):
+    # create table
+    logging.critical(f'Table name: {tableName}; \n Column string: {colString}')
+    cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
+    cursor.execute("CREATE TABLE %s (%s);" % (tableName, colString))
+
+    # read the contents of the file
+    with open(file, 'r') as f:
+        reader = csv.reader(f)
+        next(reader)  # skip header row
+        rows = [row for row in reader]
+
+    # populate the table
+    insert_query = f"INSERT INTO {tableName} (name, age, city) VALUES %s"
+    connection.execute_values(cursor, insert_query, rows)
 
 def close():
     """Close database"""

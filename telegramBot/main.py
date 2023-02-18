@@ -34,10 +34,8 @@ def predict(df):
 def suggestProperties():
     df = db.get_new_properties()
     logging.debug(str(df))
-    print(df)
     if not df:
         logging.debug('DF IS EMPTY')
-        print('DF IS EMPTY')
     df = predict(df)
     positiveRows = df.loc[df['Difference'] > 0]
     return positiveRows['link'].values.tolist()
