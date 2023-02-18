@@ -67,8 +67,12 @@ def create_table(tableName, colString):
 
 
 def uploadCSV(df, tableName):
-    df.to_sql(tableName, connection, schema='public', if_exists='replace')
+    for _, row in df.iterrows():
+        cursor.execute(f"INSERT INTO {tableName} "
+                       f"({', '.join(df.columns)}) "
+                       f"VALUES ({', '.join([str(val) for val in row])})")
     connection.commit()
+
 
 
 def close():
