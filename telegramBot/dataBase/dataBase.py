@@ -71,12 +71,16 @@ def uploadCSV(df, tableName):
 
         logging.critical(cursor.mogrify(f"INSERT INTO {tableName} "
                        f"({', '.join(df.columns)}) "
-                       f"VALUES ({', '.join([str(val) for val in row])})"))
-        cursor.execute(f"INSERT INTO {tableName} "
+                       f"VALUES ({', '.join([__surround_string(str(val)) for val in row])})"))
+
+        cursor.executef(f"INSERT INTO {tableName} "
                        f"({', '.join(df.columns)}) "
-                       f"VALUES ({', '.join([str(val) for val in row])})")
+                       f"VALUES ({', '.join([__surround_string(str(val)) for val in row])})")
     connection.commit()
 
+
+def __surround_string(string):
+    return '"' + string + '"'
 
 
 def close():
