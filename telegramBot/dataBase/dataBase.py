@@ -49,28 +49,18 @@ def create_table(tableName, colString):
     connection.commit()
 
 
-# def uploadCSV(file, tableName):
-#     SQL_STATEMENT = """
-#             COPY %s FROM STDIN WITH
-#                 CSV
-#                 HEADER
-#                 DELIMITER AS ','
-#             """
-#     cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
-#     cursor.execute("grant select on table %s to public" % tableName)
-#     connection.commit()
-
-def uploadCSV(file, tableName, colstring):
-    # read the contents of the file
-    with open(file, 'r') as f:
-        reader = csv.reader(f)
-        next(reader)  # skip header row
-        rows = [row for row in reader]
-
-    # populate the table
-    insert_query = f"INSERT INTO {tableName} ({colstring}) VALUES %s"
-    connection.execute_values(cursor, insert_query, rows)
+def uploadCSV(file, tableName):
+    SQL_STATEMENT = """
+            COPY %s FROM STDIN WITH
+                CSV
+                HEADER
+                DELIMITER AS ','
+            """
+    cursor.copy_expert(sql=SQL_STATEMENT % tableName, file=file)
+    cursor.execute("grant select on table %s to public" % tableName)
     connection.commit()
+
+
 
 def close():
     """Close database"""

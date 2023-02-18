@@ -74,7 +74,7 @@ async def on_file_received3(message: types.Message):
     main.db.create_table("uploadedproperties", columnString)
 
     # Upload the cvs file data to the sql database
-    main.db.uploadCSV(file, "uploadedproperties", columnString)
+    main.db.uploadCSV(file, "uploadedproperties")
 
     # Confirm that the file was uploaded to the database
     await main.bot.send_message(chat_id=message.chat.id, text='CSV file has been saved.')
