@@ -77,7 +77,7 @@ def uploadCSV(df, tableName):
 
 
 def __surround_string(string):
-    return '"' + string + '"'
+    return "'" + string + "'"
 
 
 def close():
