@@ -43,10 +43,13 @@ def update_subscription(user_id, status):
 
 
 def create_table(tableName, colString):
-    logging.critical(f'Table name: {tableName}; \n Column string: {colString}')
-    cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
-    cursor.execute("CREATE TABLE %s (%s);" % (tableName, colString))
-    connection.commit()
+    with connection:
+        logging.critical(f'Table name: {tableName}; \n Column string: {colString}')
+        cursor.execute("DROP TABLE IF EXISTS %s;" % (tableName,))
+        create_table_query = "CREATE TABLE %s (%s)\n;" % (tableName, colString)
+        logging.critical(f'create_table_query')
+        cursor.execute(create_table_query)
+        connection.commit()
 
 
 def uploadCSV(file, tableName):
