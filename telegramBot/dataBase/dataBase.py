@@ -67,8 +67,7 @@ def create_table(tableName, colString):
 
 
 def uploadCSV(df, tableName):
-    logging.critical('THE DATAFRAME:\n' + df)
-    df.to_sql(tableName, connection)
+    df.to_sql(tableName, connection, schema='public', if_exists='replace')
     connection.commit()
 
 
