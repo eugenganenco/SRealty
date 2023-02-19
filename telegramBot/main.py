@@ -19,6 +19,9 @@ logging.basicConfig(level=logging.ERROR)
 bot = Bot(API_TOKEN)
 dp = Dispatcher(bot)
 
+def adaptColumnNames():
+    pass
+
 
 def predict(df):
     features = df.drop('price', axis=1)
