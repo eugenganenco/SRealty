@@ -24,6 +24,8 @@ def predict(df):
     features = df.drop('price', axis=1)
     with open(os.path.join('telegramBot', 'model.pickle'), 'rb') as f:
         model = dill.load(f)
+    logging.critical(f'FEATURE COLUMNS: {str(features.columns)}')
+    logging.critical(f'FEATURES: {str(features)}')
     predictions = model.predict(features)
     df['Predictions'] = predictions
     df['Difference'] = df['price'] - df['Predictions']
