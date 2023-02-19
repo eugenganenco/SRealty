@@ -32,10 +32,10 @@ def predict(df):
 
 # the function should also use the criteria specified by each user
 def suggestProperties():
-    df = db.get_new_properties()
-    logging.debug(str(df))
+    df = pd.DataFrame(db.get_new_properties(), db.get_column_names())
+    logging.critical(str(df))
     if not df:
-        logging.debug('DF IS EMPTY')
+        logging.critical('DF IS EMPTY')
     df = predict(df)
     positiveRows = df.loc[df['Difference'] > 0]
     return positiveRows['link'].values.tolist()

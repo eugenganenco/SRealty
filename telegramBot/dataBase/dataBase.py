@@ -22,6 +22,13 @@ def get_new_properties():
         return cursor.fetchall()
 
 
+def get_column_names():
+    with connection:
+        cursor.execute("SELECT * FROM uploadedproperties")
+        col_names = [desc[0] for desc in cursor.description]
+        return col_names
+
+
 def subscriber_exists(user_id):
     """Check if there already is such a subscriber in the database"""
     with connection:
