@@ -32,6 +32,9 @@ def predict(df):
 
 # the function should also use the criteria specified by each user
 def suggestProperties():
+    df_str = str(db.get_new_properties())
+    col_str = str(db.get_column_names())
+    logging.critical(f'\n DF: {df_str} \n COL: {col_str}')
     df = pd.DataFrame(db.get_new_properties(), db.get_column_names())
     logging.critical(str(df))
     if not df:
