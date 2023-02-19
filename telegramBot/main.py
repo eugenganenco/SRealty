@@ -22,7 +22,7 @@ dp = Dispatcher(bot)
 
 def predict(df):
     features = df.drop('price', axis=1)
-    with open('model.pickle', 'rb') as f:
+    with open('telegramBot.model.pickle', 'rb') as f:
         model = dill.load(f)
     predictions = model.predict(features)
     df['Predictions'] = predictions
