@@ -35,7 +35,7 @@ def suggestProperties():
     df_str = str(db.get_new_properties())
     col_str = str(db.get_column_names())
     logging.critical(f'\n DF: {df_str} \n COL: {col_str}')
-    df = pd.DataFrame(db.get_new_properties(), columns=db.get_column_names(), index='index')
+    df = pd.DataFrame(db.get_new_properties(), columns=db.get_column_names())
     logging.critical(str(df))
     if not df:
         logging.critical('DF IS EMPTY')
