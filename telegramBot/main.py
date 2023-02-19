@@ -37,8 +37,6 @@ def suggestProperties():
     logging.critical(f'\n DF: {df_str} \n COL: {col_str}')
     df = pd.DataFrame(db.get_new_properties(), columns=db.get_column_names())
     logging.critical(str(df))
-    if not df:
-        logging.critical('DF IS EMPTY')
     df = predict(df)
     positiveRows = df.loc[df['Difference'] > 0]
     return positiveRows['link'].values.tolist()
