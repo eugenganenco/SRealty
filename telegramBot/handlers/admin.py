@@ -54,7 +54,7 @@ async def on_file_received3(message: types.Message):
 
     # Clean column names and map the 'pandas' data types to sql data types
     # Force column names to be lower case, no spaces, no dashes
-    df.columns = [x.replace(" ", "_").replace("-", "_").replace(r"/", "_") \
+    df.columns = [x.lower().replace(" ", "_").replace("-", "_").replace(r"/", "_") \
                       .replace("\\", "_").replace(".", "_").replace("$", "").replace("%", "") for x in df.columns]
 
     # Dictionary that maps pandas data types to sql datatypes
