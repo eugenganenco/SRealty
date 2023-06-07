@@ -26,7 +26,7 @@ SrealtyDataAnalysis.ipynb analyzes the collected data using pandas and data visu
 Modeling.ipynb trains an XGBRegressor model using the scraped data combined with some data found on wikipedia. The porpoise of this model is to predict price of a house given various parameters of the said house.
 
 ### Telegram bot
-  The telegram bot should be a way for users to both interact with the data and be get notified about relevant listings collected by the webscraper based on their querries. The bot runs on aiogram library. The telegram bot is not finished. 
+  The telegram bot should be a way for users to both interact with the data and be get notified about relevant listings collected by the webscraper based on their querries. The bot runs on aiogram library and has database functionality to store the data about its subscribers. The telegram bot is not finished. 
 
 
   
