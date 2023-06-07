@@ -7,7 +7,7 @@
 3. telegram bot that is supposed to notify its users about new houses on the market based on their querries and suggestion algorithm trained on the collected data. (not finished)
 
 ### Web scraper
-  The web scraper collects the data about the houses on the market from srealty.cz and saves this information in csv files. Because srealty.cz has periodic updates, for the webscraper to run - it should be updated as well with every update on the site that significantly modifies the HTML code. Also, to run the webscraper, the user needs to install chrome web driver and input their authenitfication credentials in the constructor housingDataCollector class. 
+  The web scraper collects the data about the houses on the market from srealty.cz and saves this information in csv files. Because srealty.cz has periodic updates, for the webscraper to run - it should be updated as well every time site significantly modifies its HTML code. Also, to run the webscraper, the user needs to install chrome web driver and input their authenitfication credentials in the constructor housingDataCollector class. 
   
   The main class for the webscraper is Bot.py. This class outlines the overarching logic behind this webscraper, which is the following:
 a) collect every link associated with every house listed on the site and save the links in a csv file
