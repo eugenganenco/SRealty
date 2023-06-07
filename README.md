@@ -15,3 +15,12 @@ b) go through each link and extract the relevant data about each house and save 
 c) DataPreprocessor class mofifies the final csv file by finding the geografic coordinates for each house, can translate the column names, and finds the price of the house when the posting does not use the conventional way to inform the user about it.
 
   There is also a FileNavigator class that streamelines and assists in the creation of new files and folders when collection the data.
+  
+  The user can view and download some of the collected data by the webscraper in the 'data' and 'oldData' folders of this project. The only difference between these two data folders is that the 'data' folder was created with the help of the FileNavigator class, so, as a consequence, it is better organised.
+  
+### Jupyter Notebooks
+There are two jupyter notebooks in the jupyterNotebooks folder: SrealtyDataAnalysis.ipynb and Modeling.ipynb. 
+
+SrealtyDataAnalysis.ipynb analyzes the collected using pandas and data visualization libraries such as matplotlib and seaborn. 
+  
+
