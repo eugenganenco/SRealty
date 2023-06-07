@@ -13,9 +13,9 @@ from URL_helper import URL_helper
 
 class housingDataCollector():
     def __init__(self):
-        self._PATH = '/Users/eugenganenco/Documents/drivers/chromedriver'
-        self._EMAIL = 'ganeugen@gmail.com'
-        self._PASSWORD = 'Digol777'
+        self._PATH = ''
+        self._EMAIL = '
+        self._PASSWORD = ''
         self.__linksSet = set()
         logging.basicConfig(filename='file.log',
                             format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
