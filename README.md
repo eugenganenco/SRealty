@@ -14,7 +14,7 @@ a) collect every link associated with every house listed on the site and save th
 b) go through each link and extract the relevant data about each house and save it in a csv file, where each row is a house and each column - some useful parameter about it
 c) DataPreprocessor class mofifies the final csv file by finding the geografic coordinates for each house, can translate the column names, and finds the price of the house when the posting does not use the conventional way to inform the user about the price.
 
-  There is also a FileNavigator class that streamelines and assists in the creation of new files and folders when collection the data.
+  There is also a FileNavigator class that streamelines and assists in the creation of new files and folders when collecting the data.
   
   The user can view and download some of the collected data by the webscraper from the 'data' and 'oldData' folders of this project. The only difference between these two data folders is that the 'data' folder was created with the help of the FileNavigator class, so, as a consequence, it is better organised.
   
