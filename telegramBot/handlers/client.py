@@ -23,10 +23,8 @@ async def commands_menu(message: types.message):
 # @dp.message_handler(commands=['subscribe'])
 async def subscribe(message: types.Message):
     if (not db.subscriber_exists(message.from_user.id)):
-        # если юзера нет в базе, добавляем его
         db.add_subscriber(message.from_user.id)
     else:
-        # если он уже есть, то просто обновляем ему статус подписки
         db.update_subscription(message.from_user.id, True)
 
     await message.answer(
@@ -36,11 +34,9 @@ async def subscribe(message: types.Message):
 # @dp.message_handler(commands=['unsubscribe'])
 async def unsubscribe(message: types.Message):
     if (not db.subscriber_exists(message.from_user.id)):
-        # если юзера нет в базе, добавляем его с неактивной подпиской (запоминаем)
         db.add_subscriber(message.from_user.id, False)
         await message.answer("You are already subscribed.")
     else:
-        # если он уже есть, то просто обновляем ему статус подписки
         db.update_subscription(message.from_user.id, False)
         await message.answer("You have successfully unsubscribed from the bot")
 
