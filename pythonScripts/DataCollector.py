@@ -11,7 +11,7 @@ class DataCollector:
     def __init__(self):
         self._PATH = '/Users/eugenganenco/Documents/drivers/chromedriver'
         self._EMAIL = 'ganeugen@gmail.com'
-        self._PASSWORD = 'Digol777'
+        self._PASSWORD = ''
         self._driver = webdriver.Chrome(self._PATH)
         self.__linksSet = set()
         self._file = self._createFileForData('links')
