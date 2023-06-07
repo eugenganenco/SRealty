@@ -11,7 +11,7 @@
   
   The main class for the webscraper is Bot.py. This class outlines the overarching logic behind this webscraper, which is the following:
 a) collect every link associated with every house listed on the site and save the links in a csv file
-b) go through each link and extract the relevant data about each house and save it in a csv file, where each row is a house and each column some useful parameter about it
+b) go through each link and extract the relevant data about each house and save it in a csv file, where each row is a house and each column - some useful parameter about it
 c) DataPreprocessor class mofifies the final csv file by finding the geografic coordinates for each house, can translate the column names, and finds the price of the house when the posting does not use the conventional way to inform the user about the price.
 
   There is also a FileNavigator class that streamelines and assists in the creation of new files and folders when collection the data.
