@@ -23,7 +23,7 @@ There are two jupyter notebooks in the jupyterNotebooks folder: SrealtyDataAnaly
 
 SrealtyDataAnalysis.ipynb analyzes the collected data using pandas and data visualization libraries such as matplotlib and seaborn. In this document the user can find: plots displaying relationship between the dependent variable 'price' and independent variables, what are the largest real estate companies in Czech Republic and what their market share is, what are the least competitive real estate markets by type of house and location, and much more. There is also an interctive map of showing the average price of houses for every NUTS4 region in Czech Republic, but the user would have to run the notebook on their machine to see this map (GitHub file veiwer may not display this map).
 
-Modeling.ipynb attempts to train an XGBRegressor model using the scraped data combined with some data found on wikipedia. The porpoise of this model is to predict price of a house given various parameters of the said house.
+Modeling.ipynb trains an XGBRegressor model using the scraped data combined with some data found on wikipedia. The porpoise of this model is to predict price of a house given various parameters of the said house.
 
 ### Telegram bot
   The telegram bot should be a way for users to both interact with the data and be get notified about relevant listings collected by the webscraper best on their querries. The bot runs on aiogram library. The telegram bot is not finished. 
