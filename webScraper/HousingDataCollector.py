@@ -11,7 +11,7 @@ from datetime import datetime
 from URL_helper import URL_helper
 
 
-class housingDataCollector():
+class HousingDataCollector():
     def __init__(self):
         self._PATH = ''
         self._EMAIL = '

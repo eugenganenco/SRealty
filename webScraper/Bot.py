@@ -1,4 +1,4 @@
-from housingDataCollector import housingDataCollector
+from HousingDataCollector import HousingDataCollector
 from DataPreprocessor import DataPreprocessor
 
 class Bot:
