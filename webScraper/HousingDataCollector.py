@@ -89,26 +89,6 @@ class HousingDataCollector():
         else:
             return False
 
-    '''
-    def __collectLinks(self, driver):
-        name = self.__makeFileName('links', 'txt')
-        with open(name, mode="w") as file:
-            while not driver.find_elements(By.CSS_SELECTOR, "a.icon-arr-right.disabled"):
-                houseElements = driver.find_elements(By.CSS_SELECTOR, 'a.title')
-                for element in houseElements:
-                    try:
-                        link = element.get_attribute("href")
-                    except selenium.common.StaleElementReferenceException:
-                        logging.error('StaleElementReferenceException')
-                    else:
-                        self.__linksSet.add(link)
-                        file.write(link + '\n')
-                driver.find_element(By.CSS_SELECTOR, 'a.icon-arr-right.paging-next').click()
-                # checks if the next page loaded
-                while not driver.find_elements(By.CSS_SELECTOR, 'a.btn-paging-pn'):
-                    time_.sleep(0.5)
-    '''
-
     def readLinks(self, fileName=None, directory=None):
         self.fileNavigator.goToFreshDataFolder() if not directory else self.fileNavigator.goToDir(directory)
         if not fileName:
